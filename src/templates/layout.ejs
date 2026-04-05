@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><%= pageTitle %> · Japan 2026</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#fdf6e3">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="top-nav">
+  <div class="top-nav-inner">
+<% sections.forEach(function(s) { %>
+    <a href="<%= s.id %>.html"><%= s.title %></a>
+<% }); %>
+    <a href="packing.html">Packing</a>
+  </div>
+</nav>
+
+<%- body %>
+
+<div class="footer">Japan 2026 · Alex & Viv</div>
+
+<script src="main.js"></script>
+<% if (typeof registerSW === 'undefined' || registerSW) { %>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(function() {});
+}
+</script>
+<% } %>
+</body>
+</html>

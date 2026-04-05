@@ -1,0 +1,136 @@
+<%
+  var typeEmoji = {
+    flight: '✈️',
+    train: '🚄',
+    activity: '📍',
+    restaurant: '🍜',
+    note: '📝'
+  };
+
+  var pillLabels = {
+    free: 'Free',
+    cost: 'Cost',
+    booked: 'Booked ✓',
+    food: 'Food',
+    photo: '📸'
+  };
+
+  function formatDayNav(day) {
+    var d = new Date(day.date + 'T12:00:00');
+    var mon = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][d.getMonth()];
+    return mon + ' ' + d.getDate();
+  }
+%>
+
+<div class="header">
+  <div class="header-eyebrow">April 2026 · Japan Trip</div>
+  <h1><%= section.title %><br><em><%= section.subtitle %></em></h1>
+  <div class="header-meta">
+    <span class="meta-chip">📅 <%= section.dates_label %></span>
+<% (section.meta_chips || []).forEach(function(chip) { %>
+    <span class="meta-chip"><%= chip %></span>
+<% }); %>
+  </div>
+</div>
+
+<nav class="day-nav">
+  <div class="day-nav-inner">
+<% section.days.forEach(function(day, i) { %>
+    <a href="#day-<%= day.date %>"<%= i === 0 ? ' class="active"' : '' %>><%= formatDayNav(day) %> · <%= day.title %></a>
+<% }); %>
+  </div>
+</nav>
+
+<% section.days.forEach(function(day, dayIndex) { %>
+<section class="day-section" id="day-<%= day.date %>">
+  <div class="day-header">
+    <div class="day-number"><%= String(dayIndex + 1).padStart(2, '0') %></div>
+    <div class="day-title"><%= day.title %></div>
+  </div>
+  <div class="day-subtitle"><%= day.subtitle %></div>
+
+<% if (day.note) { %>
+  <div class="day-note">
+    <strong>Note:</strong> <%- day.note %>
+  </div>
+<% } %>
+
+<% if (day.accommodation) { %>
+  <div class="accommodation-card">
+    <span class="acc-emoji">🏨</span>
+    <div class="acc-info">
+      <div class="acc-name"><%= day.accommodation.name %></div>
+      <% if (day.accommodation.notes) { %><div class="acc-notes"><%= day.accommodation.notes %></div><% } %>
+    </div>
+    <div class="acc-links">
+<% if (day.accommodation.maps_url) { %>
+      <a class="acc-link" href="<%= day.accommodation.maps_url %>" target="_blank" rel="noopener">Map</a>
+<% } %>
+<% if (day.accommodation.booking_url) { %>
+      <a class="acc-link" href="<%= day.accommodation.booking_url %>" target="_blank" rel="noopener">Booking</a>
+<% } %>
+    </div>
+  </div>
+<% } %>
+
+<% day.events.forEach(function(evt) { %>
+  <div class="module">
+    <div class="module-header">
+      <div class="module-time-col">
+<% if (evt.time) { %>
+        <div class="module-time"><%= evt.time %></div>
+<% } %>
+<% if (evt.duration) { %>
+        <div class="module-duration"><%= evt.duration %></div>
+<% } %>
+      </div>
+      <div class="module-main">
+        <span class="module-emoji"><%= typeEmoji[evt.type] || '📍' %></span>
+        <div class="module-title-group">
+          <div class="module-name">
+            <%= evt.title %><% if (evt.optional) { %><span class="optional-label">optional</span><% } %>
+          </div>
+<% if (evt.tagline) { %>
+          <div class="module-tagline"><%= evt.tagline %></div>
+<% } %>
+        </div>
+        <div class="module-pills">
+<% (evt.pills || []).forEach(function(p) { %>
+          <span class="pill pill-<%= p %>"><%= pillLabels[p] || p %></span>
+<% }); %>
+        </div>
+      </div>
+      <div class="module-chevron">▼</div>
+    </div>
+    <div class="module-body">
+<% if (evt.notes) { %>
+      <p><%- evt.notes.replace(/\n/g, '</p><p>') %></p>
+<% } %>
+<% if (evt.booking_ref) { %>
+      <p><strong>Ref:</strong> <%= evt.booking_ref %></p>
+<% } %>
+<% if (evt.maps_url) { %>
+      <a class="map-link" href="<%= evt.maps_url %>" target="_blank" rel="noopener">
+        <svg class="pin-svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Open in Maps
+      </a>
+<% } %>
+<% if (evt.booking_url) { %>
+      <a class="booking-link" href="<%= evt.booking_url %>" target="_blank" rel="noopener">Booking details</a>
+<% } %>
+    </div>
+  </div>
+<% }); %>
+</section>
+<% }); %>
+
+<div class="section-pager">
+<% if (prevSection) { %>
+  <a href="<%= prevSection.id %>.html">← <%= prevSection.title %></a>
+<% } else { %>
+  <span class="spacer"></span>
+<% } %>
+<% if (nextSection) { %>
+  <a href="<%= nextSection.id %>.html"><%= nextSection.title %> →</a>
+<% } %>
+</div>

@@ -1,0 +1,47 @@
+<div class="header">
+  <div class="header-eyebrow">April 2026 · Japan Trip</div>
+  <h1><%= meta.title %></h1>
+  <div class="header-meta">
+    <span class="meta-chip">📅 Apr 10 – 30</span>
+    <span class="meta-chip">👫 <%= meta.travelers.join(' & ') %></span>
+    <span class="meta-chip">🗾 20 days</span>
+  </div>
+</div>
+
+<div class="index-grid" id="sectionGrid">
+<% sections.forEach(function(s) { %>
+  <a class="index-card" href="<%= s.id %>.html" data-start="<%= s.days[0].date %>" data-end="<%= s.days[s.days.length - 1].date %>">
+    <div class="index-card-eyebrow"><%= s.dates_label %></div>
+    <div class="index-card-title"><%= s.title %></div>
+    <div class="index-card-subtitle"><%= s.subtitle %> · <%= s.days.length %> day<%= s.days.length > 1 ? 's' : '' %></div>
+  </a>
+<% }); %>
+  <a class="index-card" href="packing.html">
+    <div class="index-card-eyebrow">Checklist</div>
+    <div class="index-card-title">Packing List</div>
+    <div class="index-card-subtitle">Carry-on only</div>
+  </a>
+</div>
+
+<script>
+(function() {
+  var today = new Date().toISOString().slice(0, 10);
+  var cards = document.querySelectorAll('.index-card[data-start]');
+  var target = null;
+
+  cards.forEach(function(card) {
+    var start = card.getAttribute('data-start');
+    var end = card.getAttribute('data-end');
+    if (today >= start && today <= end) {
+      card.classList.add('active-now');
+      target = card.getAttribute('href');
+    }
+  });
+
+  // Auto-redirect to active section (only on first visit per session)
+  if (target && !sessionStorage.getItem('japan2026-landed')) {
+    sessionStorage.setItem('japan2026-landed', '1');
+    window.location.href = target;
+  }
+})();
+</script>

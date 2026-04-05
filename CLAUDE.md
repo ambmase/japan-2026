@@ -11,8 +11,109 @@ Ask clarifying questions when helping us plan our trip!
 ## Google Calendar
 My google calendar has some events already added to the calendar 'Viv and Alex <3'. If you want to modify the calendar you must ask for my permission first!
 
-# Itinerary in progress
-| Sat Apr 11 Tokyo  (Arrival day) | Sun Apr 12 Tokyo to Kanazawa (4.5 ish)  [Tosei Hotel Cocone Ueno](https://www.expedia.ca/trips/egti-5OD-8B3-MJ6B/details/MmQzYTYyYzMtNGZjNy02YmU2LTk4MWMtNjU3Y2E0ZjQ4MDA3O2UyOTlmMWRlLWE4YWEtNDY0ZS1hNzM2LTk3OGQ2NzExZDljZF8wO2VnOnByb3BlcnR5OmQ0OWY4MzFjN2U3ODQwYjg4MDExMjYwODcyMGVhNDJh) Refund before April 1  $288 \- pay at property Train Booked 9:26 AM Ueno station | Mon Apr 13 Kanazawa [Four Points Flex by Sheraton Kanazawa](https://www.expedia.ca/Kanazawa-Hotels-UNIZO-INN-Kanazawa-Hyakumangoku-Dori.h18375043.Hotel-Information)  Refund before Apr 1 $186 \- paid  | Tue Apr 14 Shirakawa-go day trip | Wed Apr 15 Kanazawa to Kyoto  (travel-day)  [Hotel Grand Bach](https://www.expedia.ca/Kyoto-Hotels-Hotel-Grand-Bach-Kyoto-Select.h8076320.Hotel-Information) Refund before April 13 $750 \-   \- Nishiki Market \- Hanamikoji Street \- Pontocho Train Voucher Booked Klook \- [Redeem](https://www.westjr.co.jp/global/en/howto/guide/emco/) at ticket machine | Thu Apr 16 Kyoto (early morning) \- Kiyomizudera Temple \- Ninen-zaka lanes \- Sanjusangendo (statues) \- Kurama-dera Temple \- Lunch in Kibune \- Kibuneguchi Station to Demachiyanagi    | Fri Apr 17 Kyoto  (early morning) \- Arashiyama bamboo forest \- Okochi Sanso Garden \- Fushimi Inari Taisha \- 3:30 [Tea Ceremony](https://maps.app.goo.gl/KkeF6eRBD4jxJvh76)  \- Hanamikoji \+ Gion wander / Dinner |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Sat Apr 18 **Kyoto \-\> Osaka** [Hotel Booked](https://www.expedia.ca/Osaka-Hotels-Hotel-Monterey-Grasmere-Osaka.h2492916.Hotel-Information?chkin=2026-04-19&chkout=2026-04-22&x_pwa=1&rfrr=HSR&pwa_ts=1770579588704&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jYS9Ib3RlbC1TZWFyY2g%3D&useRewards=true&rm1=a2&regionId=6166136&destination=Namba+Station%2C+Osaka%2C+Osaka+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=179180&latLong=34.667011%2C135.497332&paymentType=FREE_CANCELLATION&sort=DISTANCE&top_dp=137&top_cur=CAD&userIntent=&selectedRoomType=201889957&selectedRatePlan=390855954&searchId=c3795baf-31c9-49bc-88b9-37bfebb275f6) [Hotel Monterey Grasmere Osaka](https://www.priceline.com/relax/at/23864206/from/20260418/to/20260422/rooms/1?pclnId=403EC054AA89DD1BFCB7F31A7FF67473115768CB776807ABDF61A96E654236F251628D5F7D5942A1795BE61771F15D35770353CCA8803B96169784DF11F366CED9A20F6E5401AEFAEE9BE7C0AACFF245575C0A51DA4DB66F2426F03569BDE7A8F588D1F4A7B9B505694938114A9A2566&cur=CAD&qdp=168&gid=3795&cug=true&cityId=3000040036&backlink-id=ois8nc7j7zf&meta-id=Qa1rvL4jFiScRE3IHVLkC5Del2X4pyRdfixVKKwyHkZfNHoSw_CQjDHmCPxsGfsrygMZISLtx1n-cpkxyp29f44qD8wvziXeMSSWRsJ1kPAFDFvC6NyJz0NdoUR5GKkGgLXAOfw5J7gsU6EGirwUlGXgBGEpAAFZW5OnMjDa6iUILG21uB7L1i_6vfooXic-WFGgdaZezoUjeaBvN1POF_ppXETeVkci5X4gCyFYUNOMor9kKOgF81n4xhf3XB-Gq0R8noYE_DZlrtYlIkJ8EqfW0lC0GNOj10zh-E8dGLgQHLNeIT-Gr5LaI52s8-E5L-tW_UgwuuW9MhXgi1j-9t_wo3yvhDu9Z1F3xXhM-GEtlGLZXZnPeidvd6N9e4tSSqt2FTgyWbjh9d2AgKCO9XvAJcvaEbe0AX5C-ciRXu3cmFNhWCSMDI5Pu2mJOEudP5NpMk3rZ-n_iLaxTKdyFPCpTxU5eX0vk4ih7EH6k_c&taxDisplayMode=BP&psl=23864206) $738.71 **Ticket at Station** JR Special Rapid | Sun Apr 19  **Osaka**  [Osaka Fancy Kobe Beef Restaurant](https://maps.app.goo.gl/oze8knSHwQL57ebZ8) [Reso link](https://mycon-jp.net/reservation/kobebeef-ishida-osaka/en)   | Mon Apr 20 **Osaka** (Nara day trip) \- Nara Park \- Higashimuki Shopping Street \- Kasuga Shrine (most worshipped in Nara) | Tue Apr 21 **Osaka** (Kobe day trip) | Wed Apr 22 **Osaka to Hiroshima** (travel-day) [Sotetsu Fresa Inn Hiroshima](https://www.expedia.ca/Hiroshima-Hotels-Sotetsu-Fresa-Inn-Hiroshima.h66094213.Hotel-Information) $235 \- Paid **Train Voucher Booked Klook \-** [Redeem](https://res.klook.com/image/upload/JR_West_seat_reservation_moti3d.png) at ticket machine | Thu Apr 23 **Hiroshima**  | Fri Apr 24 **Hiroshima to Hakone** (long Travel day) [Yoshiike Ryokan](https://www.yoshiike.org/en/) $1323 \- Paid **Train Booked** 8:22 AM  |
-| Sat Apr 25 **Hakone**  | Sun Apr 26 **Hakone to Tokyo** (Travel day) **Ticket at Station** Odakyu Romancecar | Mon Apr 27 **Tokyo**  (fuji on best weather) [SUSHI YOSHITAKE](https://tabelog.com/en/tokyo/A1301/A130101/13024076/) $1,156 \- Paid | Tue Apr 28  **Tokyo** Jazz Clubs \- [Pit Inn](http://pit-inn.com/e/) \- [Blue Note](https://www.google.com/search?q=Blue+Note+Tokyo&sca_esv=2a53f1fec2137711&sxsrf=ANbL-n4KaSz-GKYzFClkxdkCa4b-DqW8eA%3A1773005815360&ei=9-utaaTKFazx0PEP39GeqAE&biw=2056&bih=1203&ved=2ahUKEwiZmMm2oZGTAxVCHjQIHaeINC8QgK4QegQIAxAB&uact=5&oq=where+is+the+best+place+in+tokyo+to+listen+to+jazz%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiM3doZXJlIGlzIHRoZSBiZXN0IHBsYWNlIGluIHRva3lvIHRvIGxpc3RlbiB0byBqYXp6PzIFECEYoAEyBRAhGKABSLdcUKoLWIBbcAJ4AZABAZgBwgGgAcEtqgEFMjguMja4AQPIAQD4AQGYAjegAugtwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhkQLhiABBiwAxhDGMcBGMgDGIoFGK8B2AEBwgIKECMYgAQYJxiKBcICEBAAGIAEGLEDGEMYgwEYigXCAgoQABiABBhDGIoFwgILEC4YgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICDhAuGIAEGLEDGIMBGIoFwgILEAAYgAQYkQIYigXCAg4QABiABBixAxiDARiKBcICCxAuGIAEGMcBGK8BwgIIEC4YgAQYsQPCAgUQABiABMICCxAAGIAEGLEDGIMBwgIEEAAYA8ICCxAAGIAEGJIDGIoFwgILEAAYFhjJAxgKGB7CAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIFEAAY7wXCAgQQIRgVwgIFECEYnwXCAgcQIRigARgKmAMAiAYBkAYMugYECAEYCJIHBTI2LjI5oAfAjAOyBwUyNC4yObgH3S3CBwcxLjM2LjE4yAecAYAIAA&sclient=gws-wiz-serp&mstk=AUtExfDENOlPn4ANphB97jXtgY8y5LI6CVgelHbs4rtM8UiU3SBWszQ4LkXicKvlHfhHOooOShLFnsvKSaSnaBKJmeaUwHY-_l2SGepZ5UfzfcL2nERfZ7VlCMSv11bPMmU0BiwqP0LPlmA9CKvpez647UO8uTyWQ22tcV2Ak_GxFVUF6vxPv_1L8LaptipadzRl6LoA-PMgO8cQ8ibht0cpAFSlMJ9yVzQGUhvKY6bEe-xXH0h8JzIevQWPwZNIIeipdLrh8kAAoPEzkqpF2cztPj1LJujLKTHd2X11dMBFhaolZQ&csui=3) \- [Alfie](https://www.google.com/search?q=Alfie+Tokyo&sca_esv=2a53f1fec2137711&biw=2056&bih=1203&sxsrf=ANbL-n68MGFO_FX4pT_GacyfTaXwPqaXzA%3A1773006933402&ei=VfCtacqdGNP20PEP4bqu2QE&ved=0ahUKEwiKnMzDpZGTAxVTOzQIHWGdKxsQ4dUDCBM&uact=5&oq=Alfie+Tokyo&gs_lp=Egxnd3Mtd2l6LXNlcnAiC0FsZmllIFRva3lvMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBUjUEFCXA1j8DnACeACQAQCYAa4BoAH6BqoBAzQuNLgBA8gBAPgBAZgCCaAC5QbCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICChAuGIAEGEMYigXCAg0QLhiABBixAxhDGIoFwgIKEAAYgAQYQxiKBcICEBAuGIAEGLEDGEMYgwEYigXCAggQLhiABBixA8ICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQHCAgsQLhiABBiRAhiKBcICChAuGIAEGBQYhwLCAgUQLhiABMICGhAuGIAEGJECGIoFGJcFGNwEGN4EGOAE2AEBwgIFECEYoAHCAgoQABiABBgUGIcCwgIHEAAYgAQYCpgDAIgGAZAGE7oGBggBEAEYCZIHAzUuNKAHu2iyBwMzLjS4B9UGwgcHMC4zLjUuMcgHKoAIAA&sclient=gws-wiz-serp) | Wed Apr 29 **Tokyo**  | Thu Apr 30 **Tokyo** (Depart HND 15:50) |  |
+---
+
+# Trip App
+
+Static site that renders `trip.json` into HTML pages via EJS templates. Hosted on GitHub Pages.
+
+## How it works
+```
+trip.json  →  build.js (Node + EJS)  →  dist/*.html  →  GitHub Pages
+```
+
+- `trip.json` is the **single source of truth** for all itinerary and packing data
+- `node build.js` reads it and generates HTML pages in `dist/`
+- `dist/` is gitignored — produced by CI or locally, never committed
+- GitHub Actions (`.github/workflows/deploy.yml`) builds and deploys on push to `main`
+- Preview locally: `npx serve dist`
+
+## Key files
+| File | Purpose |
+|------|---------|
+| `trip.json` | All trip data — the only file edited during travel |
+| `build.js` | Build script: reads trip.json, renders templates → dist/ |
+| `src/style.css` | Shared styles (design system from prototypes) |
+| `src/main.js` | Client-side JS (expand/collapse, packing + localStorage) |
+| `src/templates/*.ejs` | EJS templates (layout, index, section, packing) |
+| `src/manifest.json` | PWA manifest |
+| `src/sw.js` | Service worker (offline support) |
+
+## Generated pages
+| Page | Section ID | Dates |
+|------|-----------|-------|
+| `tokyo-arrival.html` | `tokyo-arrival` | Apr 11 |
+| `kanazawa.html` | `kanazawa` | Apr 12–14 |
+| `kyoto.html` | `kyoto` | Apr 15–17 |
+| `osaka.html` | `osaka` | Apr 18–21 |
+| `hiroshima.html` | `hiroshima` | Apr 22–23 |
+| `hakone.html` | `hakone` | Apr 24–25 |
+| `tokyo-final.html` | `tokyo-final` | Apr 26–30 |
+| `packing.html` | — | Packing list |
+| `index.html` | — | Home (auto-redirects to active section) |
+
+---
+
+# Updating itineraries
+
+`trip.json` is organized as `sections[] → days[] → events[]`. When working on a day's itinerary, **read the existing day object first**, then replace it with an updated version matching the schema below.
+
+To locate a day: find the section by `id`, then the day by `date`.
+
+**After editing trip.json, always run `node build.js` to regenerate the site and verify it builds cleanly.**
+
+## Day object schema
+```json
+{
+  "date": "2026-04-15",
+  "title": "Short memorable name for the day",
+  "subtitle": "Wednesday Apr 15 · Travel day from Kanazawa · Afternoon only",
+  "note": "Optional callout shown at top of day (travel context, heads-up, etc.)",
+  "accommodation": {
+    "name": "Hotel Grand Bach",
+    "notes": "Refund before Apr 13 · $750 · Paid",
+    "maps_url": "https://maps.app.goo.gl/...",
+    "booking_url": "https://www.expedia.ca/..."
+  },
+  "events": []
+}
+```
+- `note` is optional — use for travel logistics, weather warnings, or context
+- `accommodation` is optional — omit on departure days with no overnight stay
+- `accommodation.maps_url` and `accommodation.booking_url` are both optional
+
+## Event object schema
+```json
+{
+  "type": "flight | train | activity | restaurant | note",
+  "time": "14:00",
+  "duration": "30 min",
+  "title": "Check in · Hotel Grand Bach",
+  "tagline": "Drop bags, freshen up, get oriented",
+  "notes": "Freeform detail shown in the expanded card body. Use \\n for line breaks.",
+  "maps_url": "https://maps.app.goo.gl/...",
+  "booking_url": "https://www.expedia.ca/...",
+  "booking_ref": "Confirmation number",
+  "pills": ["booked", "free", "cost", "food", "photo"],
+  "optional": false
+}
+```
+- `time` and `duration` are optional (omit for flexible/unscheduled items)
+- `pills` is an array of zero or more: `free` (green), `cost` (neutral), `booked` (red), `food` (gold), `photo` (blue)
+- `optional: true` shows a grey "optional" label on the card
+- `notes`, `maps_url`, `booking_url`, `booking_ref` are all optional
+- `type` controls the emoji: ✈️ flight, 🚄 train, 📍 activity, 🍜 restaurant, 📝 note
+
+## Section-level fields (rarely changed)
+```json
+{
+  "id": "kyoto",
+  "title": "Kyoto",
+  "subtitle": "Three days",
+  "dates_label": "Apr 15 – 17",
+  "meta_chips": ["🏨 Hotel Grand Bach", "📸 Photography focus"],
+  "days": []
+}
+```
+- `id` determines the output filename (`kyoto` → `kyoto.html`)
+- `meta_chips` are freeform strings shown as grey chips in the page header

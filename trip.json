@@ -1,0 +1,1152 @@
+{
+  "meta": {
+    "title": "Japan 2026",
+    "travelers": ["Alex", "Viv"]
+  },
+  "sections": [
+    {
+      "id": "tokyo-arrival",
+      "title": "Tokyo",
+      "subtitle": "Arrival day",
+      "dates_label": "Apr 11",
+      "meta_chips": ["🏨 Tosei Hotel Cocone Ueno", "✈️ Landed Narita", "🌸 First night"],
+      "days": [
+        {
+          "date": "2026-04-11",
+          "title": "Touchdown",
+          "subtitle": "Saturday Apr 11 · Arrival from Toronto via Narita · Evening only",
+          "note": "Flight AC009 lands Narita T1 at 15:50. Budget ~90 min for immigration + Narita Express/Skyliner to Ueno. You'll be jetlagged — keep this evening light.",
+          "accommodation": {
+            "name": "Tosei Hotel Cocone Ueno",
+            "notes": "$288 · Pay at property",
+            "booking_url": "https://www.expedia.ca/trips/egti-5OD-8B3-MJ6B/details/MmQzYTYyYzMtNGZjNy02YmU2LTk4MWMtNjU3Y2E0ZjQ4MDA3O2UyOTlmMWRlLWE4YWEtNDY0ZS1hNzM2LTk3OGQ2NzExZDljZF8wO2VnOnByb3BlcnR5OmQ0OWY4MzFjN2U3ODQwYjg4MDExMjYwODcyMGVhNDJh"
+          },
+          "events": [
+            {
+              "type": "flight",
+              "time": "15:50",
+              "title": "Arrive Narita T1 · Flight AC009",
+              "tagline": "13h 20m from Toronto YYZ T1 · Departed 13:30 prev day",
+              "notes": "Clear immigration, pick up luggage, grab a Suica card at the airport convenience store or machines. Take Narita Express or Skyliner to Ueno (~60 min).",
+              "pills": ["booked"],
+              "booking_ref": "AC009"
+            },
+            {
+              "type": "train",
+              "time": "17:30",
+              "duration": "60 min",
+              "title": "Narita Express → Ueno",
+              "tagline": "Train to the hotel area",
+              "notes": "Narita Express runs every 30 min to Tokyo/Ueno stations. Can also take Keisei Skyliner directly to Ueno (36 min, ¥2,520).",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "19:00",
+              "title": "Check in · Tosei Hotel Cocone Ueno",
+              "tagline": "Drop bags, freshen up",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "19:30",
+              "title": "Explore Ameyoko Market area",
+              "tagline": "Street food and evening energy near Ueno Station",
+              "notes": "Ameyoko is a bustling open-air market right outside Ueno Station. Great for a casual first dinner — yakitori, takoyaki, fresh seafood. Many stalls open until 8–9pm.",
+              "pills": ["food", "free"],
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanazawa",
+      "title": "Kanazawa",
+      "subtitle": "Three days",
+      "dates_label": "Apr 12 – 14",
+      "meta_chips": ["🏨 Four Points Flex by Sheraton", "🚄 Shinkansen from Tokyo", "🏯 Samurai & gardens"],
+      "days": [
+        {
+          "date": "2026-04-12",
+          "title": "Tokyo to Kanazawa",
+          "subtitle": "Sunday Apr 12 · Travel day · ~4.5 hours by train",
+          "note": "Train booked: 9:26 AM from Ueno Station. Hokuriku Shinkansen to Kanazawa. Arrive around 2pm — half-day to explore.",
+          "accommodation": {
+            "name": "Four Points Flex by Sheraton Kanazawa",
+            "notes": "$186 · Paid",
+            "booking_url": "https://www.expedia.ca/Kanazawa-Hotels-UNIZO-INN-Kanazawa-Hyakumangoku-Dori.h18375043.Hotel-Information"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "09:26",
+              "duration": "4h 30m",
+              "title": "Hokuriku Shinkansen · Ueno → Kanazawa",
+              "tagline": "Reserved seats booked",
+              "notes": "Departs Ueno Station. Grab ekiben (station bento) for lunch on the train. Beautiful scenery through the Japanese Alps.",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "title": "Check in · Four Points Flex by Sheraton",
+              "tagline": "Drop bags, get oriented",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "15:00",
+              "duration": "90 min",
+              "title": "Kenrokuen Garden",
+              "tagline": "One of Japan's three great gardens",
+              "notes": "One of Japan's top three landscape gardens. Late-afternoon light is beautiful on the ponds and moss. Adjacent to Kanazawa Castle Park.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "17:00",
+              "duration": "60 min",
+              "title": "Kanazawa Castle Park",
+              "tagline": "Historic castle grounds, free to roam",
+              "notes": "Right next to Kenrokuen. The Ishikawa-mon gate and surrounding moat are stunning at dusk.",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "restaurant",
+              "time": "19:00",
+              "title": "Dinner · Omicho Market area",
+              "tagline": "Fresh seafood — Kanazawa's famous market",
+              "notes": "Omicho Market restaurants serve some of the freshest sushi and seafood bowls in Japan. Look for kaisen-don (seafood rice bowls). Market stalls close by 5pm but restaurants stay open.",
+              "pills": ["food"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Kanazawa full day",
+          "subtitle": "Monday Apr 13 · Full day · Samurai & geisha districts",
+          "accommodation": {
+            "name": "Four Points Flex by Sheraton Kanazawa",
+            "notes": "$186 · Paid"
+          },
+          "events": [
+            {
+              "type": "activity",
+              "time": "09:00",
+              "duration": "60 min",
+              "title": "Nagamachi Samurai District",
+              "tagline": "Preserved samurai residences and earthen walls",
+              "notes": "Wander the narrow lanes of the old samurai quarter. Visit Nomura-ke house (¥550) for a beautiful small garden and tatami rooms.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "10:30",
+              "duration": "60 min",
+              "title": "Higashi Chaya (Geisha District)",
+              "tagline": "Beautiful preserved tea house district",
+              "notes": "Kanazawa's most photogenic neighbourhood. Wooden lattice buildings line narrow streets. Visit Shima or Kaikaro tea house to see inside (¥500).",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "12:00",
+              "title": "Lunch · Omicho Market",
+              "tagline": "Seafood bowls and market grazing",
+              "pills": ["food"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "duration": "90 min",
+              "title": "21st Century Museum of Contemporary Art",
+              "tagline": "Free-form modern art in a circular glass building",
+              "notes": "Leandro Erlich's 'Swimming Pool' is the highlight — an optical illusion pool you can walk under. Some zones are free, special exhibitions cost ¥1,200.",
+              "pills": ["cost"],
+              "optional": true
+            },
+            {
+              "type": "activity",
+              "time": "16:00",
+              "duration": "60 min",
+              "title": "D.T. Suzuki Museum",
+              "tagline": "Zen philosopher's contemplative museum",
+              "notes": "A beautifully minimalist museum dedicated to the Zen Buddhist philosopher. The Water Mirror Garden is profoundly peaceful. ¥310.",
+              "pills": ["cost"],
+              "optional": true
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Shirakawa-go day trip",
+          "subtitle": "Tuesday Apr 14 · Day trip · UNESCO thatched village",
+          "note": "Shirakawa-go is a UNESCO World Heritage village of steep thatched-roof farmhouses (gassho-zukuri). Bus from Kanazawa takes ~75 min each way.",
+          "accommodation": {
+            "name": "Four Points Flex by Sheraton Kanazawa",
+            "notes": "$186 · Paid"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "08:00",
+              "duration": "75 min",
+              "title": "Bus · Kanazawa → Shirakawa-go",
+              "tagline": "Nohi Bus from Kanazawa Station",
+              "notes": "Book bus tickets in advance (Nohi Bus or Hokuriku Railroad). Runs several times daily. Reserved seating recommended.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "09:30",
+              "duration": "120 min",
+              "title": "Shirakawa-go village walk",
+              "tagline": "Thatched-roof farmhouses and rice paddies",
+              "notes": "Explore the main village on foot. Visit Wada House or Kanda House (open farmhouse museums). Walk up to Shiroyama Viewpoint for the classic panorama.",
+              "pills": ["photo", "free"]
+            },
+            {
+              "type": "activity",
+              "time": "11:30",
+              "title": "Shiroyama Viewpoint",
+              "tagline": "Classic panoramic view of the village",
+              "notes": "15-min uphill walk from the village center. The postcard view of the entire village with mountains behind. Essential stop.",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "restaurant",
+              "time": "12:30",
+              "title": "Lunch in Shirakawa-go",
+              "tagline": "Local soba or hida beef",
+              "notes": "Several small restaurants serve local specialties — try hida beef croquettes or handmade soba. Eat before 1pm to avoid tour-bus lunch rush.",
+              "pills": ["food"]
+            },
+            {
+              "type": "train",
+              "time": "14:30",
+              "duration": "75 min",
+              "title": "Bus · Shirakawa-go → Kanazawa",
+              "tagline": "Return bus to Kanazawa Station",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "17:00",
+              "title": "Free evening in Kanazawa",
+              "tagline": "Last night — revisit favourites or explore new spots",
+              "pills": ["free"],
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kyoto",
+      "title": "Kyoto",
+      "subtitle": "Three days",
+      "dates_label": "Apr 15 – 17",
+      "meta_chips": ["🏨 Hotel Grand Bach", "📸 Photography focus", "🍜 Food focus", "⏰ Early starts"],
+      "days": [
+        {
+          "date": "2026-04-15",
+          "title": "Arrival & first impressions",
+          "subtitle": "Wednesday Apr 15 · Travel day from Kanazawa · Afternoon / evening only",
+          "note": "Kanazawa → Kyoto is ~2.5 hrs by Thunderbird limited express. Train Voucher Booked via Klook — redeem at ticket machine at station. Arrive Kyoto Station by early afternoon.",
+          "accommodation": {
+            "name": "Hotel Grand Bach",
+            "notes": "Refund before Apr 13 · $750",
+            "booking_url": "https://www.expedia.ca/Kyoto-Hotels-Hotel-Grand-Bach-Kyoto-Select.h8076320.Hotel-Information"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "10:00",
+              "duration": "2h 30m",
+              "title": "Thunderbird · Kanazawa → Kyoto",
+              "tagline": "Klook voucher — redeem at ticket machine",
+              "notes": "Redeem Klook voucher at JR West ticket machine before boarding. Reserved seating.",
+              "booking_url": "https://www.westjr.co.jp/global/en/howto/guide/emco/",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "duration": "30 min",
+              "title": "Check in · Hotel Grand Bach",
+              "tagline": "Drop bags, freshen up, get oriented",
+              "notes": "Hotel is in the Kawaramachi / Gion area — perfectly positioned for evening walks.",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "15:00",
+              "duration": "60 min",
+              "title": "Nishiki Market",
+              "tagline": "Kyoto's kitchen — graze and explore",
+              "notes": "A 5-block covered arcade packed with pickles, fresh tofu, tamagoyaki, yakitori, and sweets. Perfect first stop — low-pressure grazing for a late lunch. Most stalls open until 6pm.",
+              "pills": ["food", "cost"]
+            },
+            {
+              "type": "activity",
+              "time": "18:00",
+              "duration": "30 min",
+              "title": "Hanamikoji Street at dusk",
+              "tagline": "Best light of the day on the lantern lanes",
+              "notes": "The famous lantern-lit Gion street is most photogenic between sunset and full dark. Walk slowly south from Shijo-dori. Maiko sightings are most likely between 5:30–7pm.",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "restaurant",
+              "time": "19:00",
+              "duration": "90 min",
+              "title": "Dinner · Pontocho Alley",
+              "tagline": "Pick a counter seat in the lantern lane",
+              "notes": "Narrow alley one block west of the Kamo River. Mix of budget yakitori counters, izakayas, and higher-end kaiseki. Look for kawayuka riverside platforms (seasonal Apr–Sept).",
+              "pills": ["food"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Eastern hills & mountain temple",
+          "subtitle": "Thursday Apr 16 · Full day · Early morning start · ~18,000 steps",
+          "note": "Highest-effort day — wear good shoes. Morning in the eastern hills, afternoon escape to Kurama for the mountain hike to Kibune.",
+          "accommodation": {
+            "name": "Hotel Grand Bach",
+            "notes": "Refund before Apr 13 · $750"
+          },
+          "events": [
+            {
+              "type": "activity",
+              "time": "06:30",
+              "duration": "60 min",
+              "title": "Kiyomizudera Temple",
+              "tagline": "Opens 6am — arrive before the crowds",
+              "notes": "The iconic wooden stage temple built into the hillside. With eastern morning light and almost no one else there, it's one of the best photo moments in Japan. ¥500 entry.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "07:45",
+              "duration": "45 min",
+              "title": "Ninen-zaka & Sannen-zaka lanes",
+              "tagline": "Stone-paved lanes, empty in early morning",
+              "notes": "Walk down from Kiyomizudera through these beautifully preserved machiya lanes. Before 9am they're virtually empty.",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "09:00",
+              "duration": "60 min",
+              "title": "Sanjusangendo",
+              "tagline": "1,001 golden statues of Kannon",
+              "notes": "A long hall containing 1,001 life-size statues of the thousand-armed Kannon. One of Japan's most awe-inspiring interiors. ¥600 entry. No photography inside.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "12:00",
+              "duration": "3h",
+              "title": "Kurama-dera Temple hike",
+              "tagline": "Mountain temple + hike through to Kibune",
+              "notes": "Take the Eizan Railway to Kurama Station (~30 min from Demachiyanagi). Hike up to Kurama-dera temple, then over the mountain ridge and down into Kibune village. The full hike is ~90 min.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "restaurant",
+              "time": "15:30",
+              "title": "Lunch in Kibune",
+              "tagline": "Riverside dining in the mountain village",
+              "notes": "Kibune is famous for nagashi somen (flowing noodles) in summer and kawadoko (riverside dining platforms). Several small restaurants along the stream.",
+              "pills": ["food"]
+            },
+            {
+              "type": "train",
+              "time": "17:00",
+              "title": "Kibuneguchi Station → Demachiyanagi",
+              "tagline": "Eizan Railway back to central Kyoto",
+              "pills": ["cost"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "title": "Western Kyoto & Gion",
+          "subtitle": "Friday Apr 17 · Full day · Early morning start",
+          "accommodation": {
+            "name": "Hotel Grand Bach",
+            "notes": "Refund before Apr 13 · $750"
+          },
+          "events": [
+            {
+              "type": "activity",
+              "time": "06:30",
+              "duration": "60 min",
+              "title": "Arashiyama Bamboo Forest",
+              "tagline": "Go at dawn — crowds arrive by 9am",
+              "notes": "The towering bamboo grove is magical in early morning light with no crowds. Take the JR San-in Line from Kyoto Station to Saga-Arashiyama Station (~15 min).",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "07:45",
+              "duration": "45 min",
+              "title": "Okochi Sanso Garden",
+              "tagline": "Hilltop villa with views over Kyoto",
+              "notes": "A beautiful hilltop garden estate at the end of the bamboo path. Entry includes matcha and a sweet on the terrace with panoramic views. ¥1,000.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "11:00",
+              "duration": "90 min",
+              "title": "Fushimi Inari Taisha",
+              "tagline": "Thousands of vermillion torii gates",
+              "notes": "The famous tunnel of orange torii gates up Mt. Inari. The full hike to the summit takes ~2 hours round trip, but even 30 min up is spectacular. Free entry.",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "15:30",
+              "duration": "90 min",
+              "title": "Tea Ceremony",
+              "tagline": "Traditional matcha experience",
+              "notes": "Pre-booked tea ceremony experience. Dress respectfully.",
+              "maps_url": "https://maps.app.goo.gl/KkeF6eRBD4jxJvh76",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "18:00",
+              "title": "Hanamikoji + Gion evening wander",
+              "tagline": "Last evening in Kyoto's most atmospheric streets",
+              "notes": "Revisit Hanamikoji at dusk and explore the wider Gion area. Look for small alley izakayas for dinner.",
+              "pills": ["free", "food"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osaka",
+      "title": "Osaka",
+      "subtitle": "Four days",
+      "dates_label": "Apr 18 – 21",
+      "meta_chips": ["🏨 Hotel Monterey Grasmere", "🍖 Food capital", "📍 Day trips to Nara & Kobe"],
+      "days": [
+        {
+          "date": "2026-04-18",
+          "title": "Kyoto to Osaka",
+          "subtitle": "Saturday Apr 18 · Travel day · JR Special Rapid",
+          "note": "Buy ticket at station — JR Special Rapid from Kyoto to Osaka Station (~30 min, covered by JR pass or ~¥570).",
+          "accommodation": {
+            "name": "Hotel Monterey Grasmere Osaka",
+            "notes": "$738.71 · Namba area",
+            "booking_url": "https://www.expedia.ca/Osaka-Hotels-Hotel-Monterey-Grasmere-Osaka.h2492916.Hotel-Information"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "10:00",
+              "title": "JR Special Rapid · Kyoto → Osaka",
+              "tagline": "Ticket at station · ~30 min",
+              "notes": "Quick and frequent JR Special Rapid service. No reservation needed — just tap your IC card.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "11:00",
+              "title": "Check in · Hotel Monterey Grasmere",
+              "tagline": "Namba area — central Osaka",
+              "notes": "Hotel is in the Namba area, close to Dotonbori and Shinsaibashi.",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "13:00",
+              "duration": "2h",
+              "title": "Dotonbori & Shinsaibashi",
+              "tagline": "Osaka's neon-lit food paradise",
+              "notes": "The famous canal-side strip with giant crab signs, running man, and wall-to-wall street food. Try takoyaki, okonomiyaki, and kushikatsu.",
+              "pills": ["food", "free", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "16:00",
+              "duration": "90 min",
+              "title": "Osaka Castle Park",
+              "tagline": "Iconic castle and spacious grounds",
+              "notes": "The castle exterior is photogenic (reconstruction). The park grounds are pleasant for an afternoon walk. Castle museum entry ¥600.",
+              "pills": ["cost", "photo"],
+              "optional": true
+            }
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "title": "Osaka exploring",
+          "subtitle": "Sunday Apr 19 · Full day · Kobe beef dinner",
+          "accommodation": {
+            "name": "Hotel Monterey Grasmere Osaka",
+            "notes": "$738.71 · Namba area"
+          },
+          "events": [
+            {
+              "type": "activity",
+              "time": "10:00",
+              "duration": "90 min",
+              "title": "Shinsekai district",
+              "tagline": "Retro neighbourhood, Tsutenkaku Tower",
+              "notes": "Colourful retro district around Tsutenkaku Tower. Famous for kushikatsu (deep-fried skewers). Great for morning street photography.",
+              "pills": ["free", "food", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "12:00",
+              "title": "Kuromon Market",
+              "tagline": "Osaka's kitchen — fresh seafood and street food",
+              "notes": "A covered market with stalls selling fresh sashimi, grilled seafood, tamagoyaki, and fruits. Eat your way through for lunch.",
+              "pills": ["food"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "title": "Free afternoon",
+              "tagline": "Explore Amerikamura, Namba, or rest up for dinner",
+              "pills": ["free"],
+              "optional": true
+            },
+            {
+              "type": "restaurant",
+              "time": "18:00",
+              "title": "Kobe Beef Ishida · Osaka",
+              "tagline": "Fancy Kobe beef teppanyaki dinner",
+              "notes": "Reservation needed. High-end Kobe beef experience.",
+              "maps_url": "https://maps.app.goo.gl/oze8knSHwQL57ebZ8",
+              "booking_url": "https://mycon-jp.net/reservation/kobebeef-ishida-osaka/en",
+              "pills": ["booked", "food"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Nara day trip",
+          "subtitle": "Monday Apr 20 · Day trip · Deer, shrines, and shopping",
+          "accommodation": {
+            "name": "Hotel Monterey Grasmere Osaka",
+            "notes": "$738.71 · Namba area"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "09:00",
+              "duration": "45 min",
+              "title": "Train · Namba → Nara",
+              "tagline": "Kintetsu Nara Line from Namba Station",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "10:00",
+              "duration": "2h",
+              "title": "Nara Park & Todai-ji",
+              "tagline": "Friendly deer and the Great Buddha",
+              "notes": "Buy deer crackers (¥200) and wander the park. Todai-ji houses the world's largest bronze Buddha in the world's largest wooden building. ¥600 entry.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "12:30",
+              "duration": "60 min",
+              "title": "Kasuga Grand Shrine",
+              "tagline": "Most worshipped shrine in Nara — thousands of lanterns",
+              "notes": "Famous for its hundreds of bronze and stone lanterns. The path through the forest is magical. ¥500 for inner sanctuary.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "title": "Higashimuki Shopping Street",
+              "tagline": "Covered arcade for souvenirs and snacks",
+              "notes": "A long covered shopping street near Kintetsu Nara Station. Good for mochi, souvenirs, and people-watching.",
+              "pills": ["free"]
+            },
+            {
+              "type": "train",
+              "time": "16:00",
+              "duration": "45 min",
+              "title": "Train · Nara → Namba",
+              "tagline": "Return to Osaka",
+              "pills": ["cost"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-21",
+          "title": "Kobe day trip",
+          "subtitle": "Tuesday Apr 21 · Day trip · Port city vibes",
+          "accommodation": {
+            "name": "Hotel Monterey Grasmere Osaka",
+            "notes": "$738.71 · Namba area"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "09:30",
+              "duration": "30 min",
+              "title": "Train · Osaka → Kobe",
+              "tagline": "JR Special Rapid to Sannomiya Station",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "10:30",
+              "duration": "60 min",
+              "title": "Kitano Ijinkan (Foreign Houses)",
+              "tagline": "Western-style mansions on the hillside",
+              "notes": "Charming hilltop district with preserved European-style houses from the Meiji era. Great views over the port.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "12:00",
+              "title": "Nankinmachi (Kobe Chinatown)",
+              "tagline": "Street food and lunch",
+              "notes": "One of Japan's three Chinatowns. Compact and fun — great for pork buns, gyoza, and bubble tea.",
+              "pills": ["food", "free"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "duration": "90 min",
+              "title": "Kobe Harborland",
+              "tagline": "Waterfront walk and shopping",
+              "notes": "Pleasant waterfront area with views of the port and Kobe Port Tower.",
+              "pills": ["free", "photo"],
+              "optional": true
+            },
+            {
+              "type": "train",
+              "time": "17:00",
+              "duration": "30 min",
+              "title": "Train · Kobe → Osaka",
+              "tagline": "Return to Namba",
+              "pills": ["cost"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiroshima",
+      "title": "Hiroshima",
+      "subtitle": "Two days",
+      "dates_label": "Apr 22 – 23",
+      "meta_chips": ["🏨 Sotetsu Fresa Inn", "☮️ Peace & history", "⛩️ Miyajima possible"],
+      "days": [
+        {
+          "date": "2026-04-22",
+          "title": "Osaka to Hiroshima",
+          "subtitle": "Wednesday Apr 22 · Travel day · Shinkansen",
+          "note": "Train Voucher Booked via Klook — redeem at JR West ticket machine before boarding.",
+          "accommodation": {
+            "name": "Sotetsu Fresa Inn Hiroshima",
+            "notes": "$235 · Paid",
+            "booking_url": "https://www.expedia.ca/Hiroshima-Hotels-Sotetsu-Fresa-Inn-Hiroshima.h66094213.Hotel-Information"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "10:00",
+              "duration": "1h 30m",
+              "title": "Shinkansen · Shin-Osaka → Hiroshima",
+              "tagline": "Klook voucher — redeem at ticket machine",
+              "notes": "Redeem Klook voucher at JR West ticket machine before boarding. Nozomi or Sakura Shinkansen.",
+              "booking_url": "https://res.klook.com/image/upload/JR_West_seat_reservation_moti3d.png",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "12:00",
+              "title": "Check in · Sotetsu Fresa Inn",
+              "tagline": "Drop bags, grab lunch",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "13:30",
+              "duration": "2h",
+              "title": "Peace Memorial Park & Museum",
+              "tagline": "Hiroshima's most important site",
+              "notes": "Allow at least 2 hours for the museum. The A-Bomb Dome, Memorial Cenotaph, and Children's Peace Monument are all within the park. Museum entry ¥200.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "16:00",
+              "title": "Hondori Shopping Arcade",
+              "tagline": "Covered shopping street for souvenirs",
+              "pills": ["free"],
+              "optional": true
+            },
+            {
+              "type": "restaurant",
+              "time": "18:30",
+              "title": "Hiroshima-style okonomiyaki",
+              "tagline": "Layered style — noodles, cabbage, egg, everything",
+              "notes": "Hiroshima's version uses layers instead of mixing. Try Okonomi-mura (okonomiyaki village) — a building with dozens of tiny stalls all cooking their version.",
+              "pills": ["food"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-23",
+          "title": "Hiroshima & Miyajima",
+          "subtitle": "Thursday Apr 23 · Full day",
+          "accommodation": {
+            "name": "Sotetsu Fresa Inn Hiroshima",
+            "notes": "$235 · Paid"
+          },
+          "events": [
+            {
+              "type": "activity",
+              "time": "08:30",
+              "duration": "3h",
+              "title": "Miyajima Island day trip",
+              "tagline": "Floating torii gate and deer",
+              "notes": "Take JR to Miyajimaguchi Station (~30 min), then a short ferry to the island. The iconic floating torii gate of Itsukushima Shrine is best at high tide. Check tide times! Free-roaming deer here too.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "restaurant",
+              "time": "12:00",
+              "title": "Lunch on Miyajima",
+              "tagline": "Grilled oysters and momiji manju",
+              "notes": "Miyajima is famous for fresh oysters and momiji manju (maple leaf cakes). The main shopping street has plenty of options.",
+              "pills": ["food"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "title": "Return to Hiroshima",
+              "tagline": "Ferry + JR back to city",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "16:00",
+              "title": "Shukkeien Garden",
+              "tagline": "Historic miniature landscape garden",
+              "notes": "A compact but beautiful garden near the castle. ¥260 entry. Good for a peaceful late afternoon.",
+              "pills": ["cost"],
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hakone",
+      "title": "Hakone",
+      "subtitle": "Two days",
+      "dates_label": "Apr 24 – 25",
+      "meta_chips": ["🏨 Yoshiike Ryokan", "♨️ Onsen & hot springs", "🗻 Mt. Fuji views"],
+      "days": [
+        {
+          "date": "2026-04-24",
+          "title": "Hiroshima to Hakone",
+          "subtitle": "Friday Apr 24 · Long travel day · Shinkansen + local trains",
+          "note": "Train booked: 8:22 AM from Hiroshima. This is a long travel day — Hiroshima → Hakone-Yumoto via Shin-Osaka/Odawara. Arrive late afternoon.",
+          "accommodation": {
+            "name": "Yoshiike Ryokan",
+            "notes": "$1,323 · Paid · Traditional Japanese inn with onsen",
+            "booking_url": "https://www.yoshiike.org/en/"
+          },
+          "events": [
+            {
+              "type": "train",
+              "time": "08:22",
+              "duration": "5h",
+              "title": "Shinkansen · Hiroshima → Odawara → Hakone",
+              "tagline": "Reserved seats booked · Transfer at Odawara",
+              "notes": "Hiroshima → Shin-Osaka → Odawara by Shinkansen (~3.5h). Then Hakone Tozan Railway or bus to Hakone-Yumoto (~15 min). Grab ekiben for the journey.",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "14:00",
+              "title": "Check in · Yoshiike Ryokan",
+              "tagline": "Traditional ryokan — change into yukata",
+              "notes": "Yoshiike is a traditional Japanese inn with private and public onsen baths. Check in, change into the provided yukata (cotton robe), and settle in.",
+              "pills": ["booked"]
+            },
+            {
+              "type": "activity",
+              "time": "15:30",
+              "duration": "60 min",
+              "title": "Explore Hakone-Yumoto town",
+              "tagline": "Hot spring town — small shops and cafes",
+              "notes": "Walk the main street near the station. Small souvenir shops, manju steamed buns, and foot baths along the way.",
+              "pills": ["free"]
+            },
+            {
+              "type": "activity",
+              "time": "17:00",
+              "title": "Onsen at Yoshiike",
+              "tagline": "Soak in the hot spring baths",
+              "notes": "Try both the indoor and outdoor (rotenburo) baths. Onsen etiquette: wash thoroughly before entering the bath. Tattoo policy varies — Yoshiike is generally tattoo-friendly.",
+              "pills": ["free"]
+            },
+            {
+              "type": "restaurant",
+              "time": "19:00",
+              "title": "Kaiseki dinner at ryokan",
+              "tagline": "Multi-course traditional Japanese dinner",
+              "notes": "Included with the ryokan stay. Multi-course kaiseki featuring seasonal ingredients. Served in your room or a private dining area.",
+              "pills": ["food"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-25",
+          "title": "Hakone full day",
+          "subtitle": "Saturday Apr 25 · Hakone Loop · Mt. Fuji views (weather permitting)",
+          "note": "Buy Hakone Free Pass for the loop route. Clear mornings give the best Fuji views — check the forecast!",
+          "accommodation": {
+            "name": "Yoshiike Ryokan",
+            "notes": "$1,323 · Paid"
+          },
+          "events": [
+            {
+              "type": "activity",
+              "time": "08:00",
+              "duration": "60 min",
+              "title": "Morning onsen + ryokan breakfast",
+              "tagline": "Early soak, then traditional Japanese breakfast",
+              "pills": ["food"]
+            },
+            {
+              "type": "activity",
+              "time": "09:30",
+              "duration": "3h",
+              "title": "Hakone Loop: ropeway, pirate ship, shrines",
+              "tagline": "Cable car → Owakudani → Lake Ashi cruise",
+              "notes": "Take the Hakone Tozan Railway up, cable car to Owakudani (volcanic valley — eat a black egg!), then ropeway down to Lake Ashi for the pirate ship cruise. Mt. Fuji views from the lake on clear days.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "13:00",
+              "title": "Hakone Shrine",
+              "tagline": "Lakeside shrine with iconic red torii in the water",
+              "notes": "The famous torii gate standing in Lake Ashi. Most photogenic in the morning or on overcast days when the lake is misty. Free entry.",
+              "pills": ["free", "photo"]
+            },
+            {
+              "type": "activity",
+              "time": "15:00",
+              "title": "Open-Air Museum or free time",
+              "tagline": "Sculpture garden in the mountains",
+              "notes": "Hakone Open-Air Museum has sculptures set against mountain backdrop. ¥1,600 entry. Skip if tired from the loop.",
+              "pills": ["cost"],
+              "optional": true
+            },
+            {
+              "type": "activity",
+              "time": "17:00",
+              "title": "Evening onsen + kaiseki dinner",
+              "tagline": "Last night at the ryokan",
+              "pills": ["food"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tokyo-final",
+      "title": "Tokyo",
+      "subtitle": "Five days",
+      "dates_label": "Apr 26 – 30",
+      "meta_chips": ["🍣 Sushi Yoshitake", "🎵 Jazz clubs", "🗻 Mt. Fuji day trip", "🛍️ Shopping"],
+      "days": [
+        {
+          "date": "2026-04-26",
+          "title": "Hakone to Tokyo",
+          "subtitle": "Sunday Apr 26 · Travel day · Odakyu Romancecar",
+          "note": "Buy Odakyu Romancecar ticket at station. Scenic express train from Hakone-Yumoto to Shinjuku (~85 min).",
+          "events": [
+            {
+              "type": "activity",
+              "time": "08:00",
+              "title": "Morning onsen + breakfast",
+              "tagline": "Last soak at the ryokan",
+              "pills": ["food"]
+            },
+            {
+              "type": "train",
+              "time": "10:00",
+              "duration": "85 min",
+              "title": "Odakyu Romancecar · Hakone → Shinjuku",
+              "tagline": "Ticket at station · Scenic express",
+              "notes": "Reserved seat express train. Beautiful views of the Hakone mountains. Arrives at Shinjuku Station.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "12:00",
+              "title": "Settle into Tokyo area",
+              "tagline": "Find accommodation, drop bags, get oriented",
+              "notes": "Last stretch of the trip — 5 nights in Tokyo. Explore the neighbourhood, grab lunch.",
+              "pills": ["free"]
+            },
+            {
+              "type": "activity",
+              "time": "15:00",
+              "title": "Shinjuku or Shibuya exploring",
+              "tagline": "Big city energy — ease back into Tokyo",
+              "notes": "Shibuya Crossing, Shinjuku Gyoen (if cherry blossoms linger), or just wander the department stores and side streets.",
+              "pills": ["free"],
+              "optional": true
+            }
+          ]
+        },
+        {
+          "date": "2026-04-27",
+          "title": "Tokyo + Sushi Yoshitake",
+          "subtitle": "Monday Apr 27 · Flex day · Mt. Fuji on best weather",
+          "note": "This is a flexible day — if weather is clear, consider a day trip to Mt. Fuji area (Kawaguchiko). Sushi Yoshitake dinner is booked and paid ($1,156).",
+          "events": [
+            {
+              "type": "activity",
+              "time": "10:00",
+              "title": "Flexible: Fuji day trip or Tokyo exploring",
+              "tagline": "Check weather — go to Fuji if clear, stay in Tokyo if not",
+              "notes": "Kawaguchiko (Mt. Fuji area) is ~2h by bus from Shinjuku. Best on crystal-clear days. If cloudy, explore Tokyo — Tsukiji outer market, Meiji Shrine, Harajuku, or Akihabara.",
+              "pills": ["free"]
+            },
+            {
+              "type": "restaurant",
+              "time": "18:00",
+              "title": "Sushi Yoshitake",
+              "tagline": "Three-Michelin-star omakase · Ginza",
+              "notes": "One of Tokyo's finest sushi experiences. Smart casual dress. Omakase only — chef's choice. Expect ~20 pieces over 2 hours. Already paid ($1,156).",
+              "booking_url": "https://tabelog.com/en/tokyo/A1301/A130101/13024076/",
+              "pills": ["booked", "food"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-28",
+          "title": "Tokyo jazz night",
+          "subtitle": "Tuesday Apr 28 · Full day · Jazz clubs in the evening",
+          "events": [
+            {
+              "type": "activity",
+              "time": "10:00",
+              "title": "Tokyo exploring",
+              "tagline": "Flex day — see what you missed",
+              "notes": "Options: Teamlab Borderless, Akihabara electronics, Shimokitazawa vintage shops, Yanaka old town, or Tsukiji outer market.",
+              "pills": ["free"]
+            },
+            {
+              "type": "activity",
+              "time": "19:00",
+              "title": "Jazz clubs",
+              "tagline": "Tokyo's legendary jazz scene",
+              "notes": "Options:\n- Pit Inn (Shinjuku) — Japan's most famous jazz club, two shows nightly\n- Blue Note Tokyo (Aoyama) — international acts, upscale\n- Alfie (Roppongi) — intimate, local jazz musicians\n\nPit Inn is the most authentic and affordable. Check schedules online.",
+              "pills": ["cost"]
+            }
+          ]
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Tokyo free day",
+          "subtitle": "Wednesday Apr 29 · Showa Day (national holiday) · Last full day",
+          "note": "Showa Day is a national holiday — expect some attractions to be busier than usual, but many shops and restaurants are open.",
+          "events": [
+            {
+              "type": "activity",
+              "time": "10:00",
+              "title": "Last day in Tokyo",
+              "tagline": "Shopping, revisiting favourites, soaking it in",
+              "notes": "Last chance for shopping (Uniqlo Ginza, Muji, Don Quijote), revisiting favourite spots, or just wandering and soaking in the city.",
+              "pills": ["free"]
+            },
+            {
+              "type": "note",
+              "title": "Pack tonight",
+              "tagline": "Early departure tomorrow — pack and organize bags",
+              "notes": "Flight departs Haneda at 15:50, but plan to be at the airport by 13:00. Pack tonight so the morning is relaxed."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-30",
+          "title": "Departure",
+          "subtitle": "Thursday Apr 30 · Fly home · HND → SFO → YYZ",
+          "events": [
+            {
+              "type": "activity",
+              "time": "11:00",
+              "title": "Head to Haneda Airport",
+              "tagline": "Allow 2+ hours before departure",
+              "notes": "Haneda is closer to central Tokyo than Narita. Monorail or Keikyu Line from various stations.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "flight",
+              "time": "15:50",
+              "duration": "9h 45m",
+              "title": "UA876 · Haneda (HND) T3 → San Francisco (SFO)",
+              "tagline": "Arrives SFO 09:35 same day",
+              "notes": "International Terminal at Haneda. Crosses the date line — arrive the same calendar day.",
+              "pills": ["booked"],
+              "booking_ref": "UA876"
+            },
+            {
+              "type": "flight",
+              "time": "12:00",
+              "duration": "5h",
+              "title": "AC740 · San Francisco (SFO) T2 → Toronto (YYZ) T1",
+              "tagline": "Arrives YYZ 20:00 · Home!",
+              "notes": "2h 25m layover in SFO. Domestic terminal change may be needed.",
+              "pills": ["booked"],
+              "booking_ref": "AC740"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packing": {
+    "bags": [
+      {
+        "owner": "Alex",
+        "name": "40L Backpack",
+        "size": "Overhead bin carry-on",
+        "contents": "Clothes, shoes, toiletries, rain gear, running gear, misc. Items that stay in hotel while sightseeing."
+      },
+      {
+        "owner": "Alex",
+        "name": "26L Backpack",
+        "size": "Personal item / daily carry",
+        "contents": "Nikon Z5 + lens, laptop/iPad, chargers, documents, snacks, water bottle. On-person every day."
+      },
+      {
+        "owner": "Viv",
+        "name": "40L Roller",
+        "size": "Overhead bin carry-on",
+        "contents": "Clothes, shoes (incl. dress shoes), toiletries. Checked bag going home — load with Tokyo purchases."
+      },
+      {
+        "owner": "Viv",
+        "name": "30L Weekender",
+        "size": "Personal item",
+        "contents": "Daily essentials, Viv's smaller items, overflow from roller. Doubles as a day bag for lighter days."
+      }
+    ],
+    "categories": [
+      {
+        "name": "Clothing",
+        "emoji": "👕",
+        "note": "With laundry roughly once a week, you need about 4–5 days of clothing. Tokyo shopping will top you up anyway.",
+        "items": [
+          { "name": "T-shirts / lightweight tops", "detail": "4–5 each. Neutral colours layer well.", "tags": ["shared"] },
+          { "name": "Long-sleeve base layer", "detail": "1–2 each. Evenings in Hakone will be cool.", "tags": ["shared"] },
+          { "name": "Jeans or chinos (smart casual)", "detail": "1 pair. Worn on travel days.", "tags": ["shared", "fancy"] },
+          { "name": "Lightweight trousers / casual pants", "detail": "1–2 pairs. More comfortable for temples and long walk days.", "tags": ["shared"] },
+          { "name": "Nice button-up / blouse", "detail": "1 each. Yoshitake + tea ceremony. Pack wrinkle-resistant.", "tags": ["shared", "fancy"] },
+          { "name": "Lightweight down or fleece", "detail": "1 each. Hakone mornings, Kurama hike, evening layering.", "tags": ["shared"] },
+          { "name": "Packable rain jacket", "detail": "1 each (already owned). Japan in April = occasional showers.", "tags": ["shared"] },
+          { "name": "Underwear", "detail": "5 pairs each. Merino wool dries fast and travels well.", "tags": ["shared"] },
+          { "name": "Socks", "detail": "5 pairs each. Include 2 pairs ankle/no-show for temple slip-ons.", "tags": ["shared"] },
+          { "name": "Running shorts + shirt", "detail": "1 set each. Double as sleep / lounge wear in the ryokan.", "tags": ["shared"] },
+          { "name": "Swimsuit / onsen wear", "detail": "Yoshiike ryokan has onsen. Bring one each just in case.", "tags": ["shared"] },
+          { "name": "Skirt or casual dress", "detail": "1. Versatile for warm Osaka days + looks great with dressier shoes.", "tags": ["viv"] },
+          { "name": "Lightweight scarf", "detail": "Layers, temple coverage, airplane blanket substitute.", "tags": ["viv"] }
+        ]
+      },
+      {
+        "name": "Footwear",
+        "emoji": "👟",
+        "note": "You'll average 20,000+ steps/day. Shoe comfort is not negotiable. Temples require slip-on/off ease.",
+        "items": [
+          { "name": "Comfortable walking sneakers", "detail": "Worn on the plane. Primary everyday shoe.", "tags": ["shared"] },
+          { "name": "Slip-on shoes or sandals", "detail": "Easy on/off for temples and ryokan. Double as evening shoes.", "tags": ["shared"] },
+          { "name": "Dress shoes", "detail": "For Yoshitake and nicer restaurants. Pack in the roller.", "tags": ["viv", "fancy"] },
+          { "name": "Trail-capable shoes or hiking sandals", "detail": "For Kurama hike and Hakone. Can be your walking shoes if sturdy enough.", "tags": ["shared"] }
+        ]
+      },
+      {
+        "name": "Camera & Photo",
+        "emoji": "📸",
+        "note": "Alex's 26L backpack is the camera bag. Keep it light — you're carrying this everywhere.",
+        "items": [
+          { "name": "Nikon Z5 body", "detail": "Main camera. Charge batteries night before.", "tags": ["alex", "photo"] },
+          { "name": "24-120mm f/4 lens", "detail": "All-purpose travel zoom. Stays on the body 90% of the time.", "tags": ["alex", "photo"] },
+          { "name": "Spare battery + charger", "detail": "One spare EN-EL15c. Charge nightly.", "tags": ["alex", "photo"] },
+          { "name": "SD cards (2×128GB)", "detail": "Formatted and ready. Bring both as backup.", "tags": ["alex", "photo"] },
+          { "name": "Lens cleaning kit", "detail": "Microfibre cloth + blower. Humidity and temple incense = smudgy lens.", "tags": ["alex", "photo"] },
+          { "name": "Small tripod or GorillaPod", "detail": "For night shots, long exposures at shrines.", "tags": ["alex", "photo"] }
+        ]
+      },
+      {
+        "name": "Toiletries",
+        "emoji": "🧴",
+        "note": "Japan has excellent convenience stores (konbini) — don't overpack toiletries. Buy sunscreen and any forgotten items at 7-Eleven or Lawson.",
+        "items": [
+          { "name": "Toothbrush + toothpaste", "detail": "Travel size. Hotels sometimes provide.", "tags": ["shared"] },
+          { "name": "Deodorant", "detail": "Hard to find in Japan — bring your own.", "tags": ["shared"] },
+          { "name": "Sunscreen", "detail": "SPF 50. Can buy excellent Japanese sunscreen there too.", "tags": ["shared"] },
+          { "name": "Medications", "detail": "Any prescriptions, plus ibuprofen, Imodium, allergy meds.", "tags": ["shared"] },
+          { "name": "Skincare basics", "detail": "Moisturizer, lip balm. Decant into travel containers.", "tags": ["shared"] },
+          { "name": "Razor / grooming kit", "detail": "Compact travel kit.", "tags": ["shared"] },
+          { "name": "Hair ties + mini brush", "detail": "Essential for temple visits and windy days.", "tags": ["viv"] }
+        ]
+      },
+      {
+        "name": "Tech & Charging",
+        "emoji": "🔌",
+        "note": "Japan uses Type A plugs (same as North America) — no adapter needed! Voltage is 100V (close enough to 120V for all modern chargers).",
+        "items": [
+          { "name": "Phone + charger", "detail": "USB-C. Download offline maps before departure.", "tags": ["shared"] },
+          { "name": "Portable battery pack", "detail": "20,000mAh minimum. Heavy photo/map days drain phones fast.", "tags": ["shared"] },
+          { "name": "iPad or laptop", "detail": "For photo backup, travel planning, entertainment on trains.", "tags": ["alex"] },
+          { "name": "USB-C cables (2–3)", "detail": "One for phone, one for camera/iPad, one spare.", "tags": ["shared"] },
+          { "name": "AirPods / earbuds", "detail": "For flights and trains. Noise cancelling preferred.", "tags": ["shared"] },
+          { "name": "Kindle or e-reader", "detail": "For long train rides and downtime.", "tags": ["shared"] }
+        ]
+      },
+      {
+        "name": "Documents & Money",
+        "emoji": "📄",
+        "note": "Japan is increasingly cashless but many small restaurants and shrines are cash-only. Carry ¥10,000–20,000 at a time.",
+        "items": [
+          { "name": "Passport", "detail": "Check expiry — must be valid 6 months beyond return.", "tags": ["shared"] },
+          { "name": "Flight confirmations (printed)", "detail": "AC009, UA876, AC740. Keep digital copies too.", "tags": ["shared"] },
+          { "name": "Hotel confirmations", "detail": "All hotels — printed or saved offline.", "tags": ["shared"] },
+          { "name": "Train vouchers / bookings", "detail": "Klook vouchers, reserved seat tickets.", "tags": ["shared"] },
+          { "name": "Credit cards (2 each)", "detail": "Visa/MC widely accepted. Bring backup card in case of issues.", "tags": ["shared"] },
+          { "name": "Cash (¥ and $CAD)", "detail": "Withdraw yen from 7-Eleven ATMs. Bring some CAD for SFO layover.", "tags": ["shared"] },
+          { "name": "Travel insurance docs", "detail": "Print policy number and emergency contact.", "tags": ["shared"] },
+          { "name": "Suica / IC card", "detail": "Pick up at Narita on arrival. Works on all trains and at konbini.", "tags": ["shared"] }
+        ]
+      },
+      {
+        "name": "Day Pack Essentials",
+        "emoji": "🎒",
+        "note": "These go in your daily carry bag every single day.",
+        "items": [
+          { "name": "Reusable water bottle", "detail": "Japan has vending machines everywhere, but refilling saves money and plastic.", "tags": ["shared"] },
+          { "name": "Compact umbrella", "detail": "April showers are common. Konbini sell cheap ones too.", "tags": ["shared"] },
+          { "name": "Hand towel / tenugui", "detail": "Japanese custom — many restrooms don't have dryers or paper towels.", "tags": ["shared"] },
+          { "name": "Snacks for travel days", "detail": "Granola bars, dried fruit for long train rides.", "tags": ["shared"] },
+          { "name": "Small zip-lock bags", "detail": "For wet umbrellas, dirty socks, or keeping things organized.", "tags": ["shared"] },
+          { "name": "Pen", "detail": "For customs forms on the flight.", "tags": ["shared"] }
+        ]
+      }
+    ]
+  }
+}

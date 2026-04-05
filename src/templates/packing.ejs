@@ -1,0 +1,94 @@
+<%
+  var tagLabels = {
+    alex: 'Alex',
+    viv: 'Viv',
+    shared: 'Both',
+    photo: 'Photo',
+    fancy: 'Fancy'
+  };
+
+  var itemCounter = 0;
+%>
+
+<div class="header">
+  <div class="header-eyebrow">April 2026 · Japan Trip</div>
+  <h1>Packing List<br><em>Carry-on only</em></h1>
+  <div class="header-meta">
+    <span class="meta-chip">📅 Apr 10 – 30</span>
+    <span class="meta-chip">🎒 Alex: 40L + 26L</span>
+    <span class="meta-chip">🧳 Viv: 40L roller + 30L weekender</span>
+    <span class="meta-chip">👕 Laundry ~weekly</span>
+  </div>
+</div>
+
+<div class="info-banner">
+  <div class="info-strip">
+    <strong>Tokyo/Kyoto/Osaka in late April:</strong> Mild and pleasant — 14–22°C days, 8–13°C nights. Layers are key. Expect occasional rain. Hakone can be 5°C cooler. No heavy coats needed; a light down or fleece + rain shell handles everything.
+  </div>
+</div>
+
+<div class="progress-bar-wrap">
+  <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="progress-label" id="progressLabel">0 / 0 packed</div>
+  <button class="progress-reset" id="packingReset">Reset all</button>
+</div>
+
+<nav class="section-nav">
+  <div class="section-nav-inner">
+    <a href="#bags" class="active">Bag Plan</a>
+<% packing.categories.forEach(function(cat) { %>
+    <a href="#cat-<%= cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') %>"><%= cat.name %></a>
+<% }); %>
+  </div>
+</nav>
+
+<!-- Bag allocation -->
+<div class="bag-map" id="bags">
+  <div class="bag-map-title">How to load the bags</div>
+  <div class="bag-grid">
+<% packing.bags.forEach(function(bag) { %>
+    <div class="bag-card">
+      <div class="bag-owner"><%= bag.owner %></div>
+      <div class="bag-name"><%= bag.name %></div>
+      <div class="bag-size"><%= bag.size %></div>
+      <div class="bag-contents"><%= bag.contents %></div>
+    </div>
+<% }); %>
+  </div>
+</div>
+
+<!-- Categories -->
+<% packing.categories.forEach(function(cat) { %>
+<%   var catId = 'cat-' + cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'); %>
+<section class="pack-section" id="<%= catId %>">
+  <div class="section-header">
+    <span class="section-emoji"><%= cat.emoji %></span>
+    <div class="section-title"><%= cat.name %></div>
+    <div class="section-count"></div>
+  </div>
+<% if (cat.note) { %>
+  <div class="section-note"><%= cat.note %></div>
+<% } %>
+  <div class="item-grid">
+<% cat.items.forEach(function(item) { %>
+<%   itemCounter++; %>
+    <div class="pack-item" data-id="pack-<%= itemCounter %>">
+      <div class="pack-checkbox"><span class="check-mark">✓</span></div>
+      <div class="pack-text">
+        <div class="pack-name"><%= item.name %></div>
+<% if (item.detail) { %>
+        <div class="pack-detail"><%= item.detail %></div>
+<% } %>
+<% if (item.tags && item.tags.length) { %>
+        <div class="pack-tags">
+<% item.tags.forEach(function(t) { %>
+          <span class="tag tag-<%= t %>"><%= tagLabels[t] || t %></span>
+<% }); %>
+        </div>
+<% } %>
+      </div>
+    </div>
+<% }); %>
+  </div>
+</section>
+<% }); %>
