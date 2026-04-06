@@ -300,7 +300,7 @@ body {
    ══════════════════════════════════════ */
 
 .module {
-  background: var(--paper);
+  background: var(--paper2);
   border: 1px solid var(--border);
   border-radius: var(--r);
   margin-bottom: 0.6rem;
@@ -331,7 +331,7 @@ body {
   min-width: 68px;
   border-right: 1px solid var(--border);
   gap: 0.15rem;
-  background: var(--paper2);
+  background: var(--paper3);
 }
 
 .module-time {
@@ -416,7 +416,7 @@ body {
   border-top: 1px solid var(--border);
   padding: 1rem 1rem 1.1rem;
   padding-left: 68px;
-  background: var(--paper2);
+  background: var(--paper3);
 }
 
 .module.open .module-body { display: block; }
@@ -659,7 +659,7 @@ body {
 }
 
 .bag-card {
-  background: var(--paper);
+  background: var(--paper2);
   border: 1px solid var(--border);
   border-radius: var(--r);
   padding: 1rem;
@@ -748,7 +748,7 @@ body {
   align-items: flex-start;
   gap: 0.7rem;
   padding: 0.7rem 0.85rem;
-  background: var(--paper);
+  background: var(--paper2);
   border: 1px solid var(--border);
   border-radius: var(--r-sm);
   cursor: pointer;
@@ -759,7 +759,7 @@ body {
   min-height: 48px;
 }
 
-.pack-item:hover { background: var(--paper2); }
+.pack-item:hover { background: var(--paper3); }
 .pack-item:active { transform: scale(0.99); }
 .pack-item.checked { opacity: 0.35; box-shadow: none; }
 
@@ -827,6 +827,26 @@ body {
 .tag-shared { background: var(--paper2); color: var(--ink3); border: 1px solid var(--border); }
 .tag-photo { background: var(--gold-soft); color: var(--gold); }
 .tag-fancy { background: var(--purple-soft); color: var(--purple); }
+.tag-optional { background: var(--paper2); color: var(--ink3); border: 1px solid var(--border); font-style: italic; }
+
+/* ── Tips grid ── */
+.tips-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0 1rem 1rem;
+}
+.tip-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: var(--paper2);
+  border-radius: 10px;
+  padding: 0.875rem 1rem;
+}
+.tip-icon { font-size: 1.25rem; line-height: 1.4; flex-shrink: 0; }
+.tip-title { font-size: 13px; font-weight: 700; color: var(--ink1); margin-bottom: 0.2rem; }
+.tip-detail { font-size: 13px; color: var(--ink2); line-height: 1.5; }
 
 /* ══════════════════════════════════════
    Footer
@@ -861,7 +881,7 @@ body {
 }
 
 .index-card {
-  background: var(--paper);
+  background: var(--paper2);
   border: 1px solid var(--border);
   border-radius: var(--r);
   padding: 1.25rem 1.2rem 1.1rem;

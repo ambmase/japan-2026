@@ -9,6 +9,9 @@ const TEMPLATES = path.join(SRC, 'templates');
 // Read trip data
 const trip = JSON.parse(fs.readFileSync(path.join(__dirname, 'trip.json'), 'utf8'));
 
+// Read packing list (separate source of truth)
+const packingList = JSON.parse(fs.readFileSync(path.join(__dirname, 'packing_list.json'), 'utf8'));
+
 // Read layout template
 const layoutTpl = fs.readFileSync(path.join(TEMPLATES, 'layout.ejs'), 'utf8');
 
@@ -58,7 +61,7 @@ renderPage('index.html', 'Home', 'index.ejs', {
 
 // 3. Packing page
 renderPage('packing.html', 'Packing List', 'packing.ejs', {
-  packing: trip.packing
+  packingList: packingList
 });
 
 // 4. Copy static assets

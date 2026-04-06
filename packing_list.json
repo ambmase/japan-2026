@@ -1,0 +1,638 @@
+{
+  "trip": {
+    "title": "Japan Packing List",
+    "dates": "April 10–30, 2026",
+    "travelers": ["Alex", "Viv"],
+    "luggage": {
+      "Alex": ["40L backpack (primary)", "26L backpack (day pack / personal item)"],
+      "Viv": ["40L roller suitcase (primary)", "30L weekender (personal item)"]
+    },
+    "laundry": "Once a week roughly (target: Osaka, Tokyo)",
+    "strategy": "Carry-on only outbound; check Viv's roller home from Tokyo for purchases"
+  },
+  "sections": [
+    {
+      "id": "clothing",
+      "title": "Clothing",
+      "emoji": "👕",
+      "note": "With laundry roughly once a week, you need about 8–10 days of clothing. Tokyo shopping will top you up anyway.",
+      "items": [
+        {
+          "id": "c001",
+          "name": "T-shirts / lightweight tops",
+          "detail": "4–5 each. Neutral colours layer well.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c002",
+          "name": "Long-sleeve base layer",
+          "detail": "1–2 each. Evenings in Hakone will be cool.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c003",
+          "name": "Jeans or chinos (smart casual)",
+          "detail": "1 pair. Worn on travel days; smart enough for Yoshitake.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "fancy": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c004",
+          "name": "Lightweight trousers / casual pants",
+          "detail": "1–2 pairs. More comfortable for temples and long walk days.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c005",
+          "name": "Nice button-up shirt",
+          "detail": "1. Yoshitake + tea ceremony. Pack wrinkle-resistant.",
+          "tags": ["Alex"],
+          "per_person": false,
+          "fancy": true,
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "c006",
+          "name": "Nice blouse",
+          "detail": "1. Yoshitake, Kobe beef, tea ceremony. Pack wrinkle-resistant.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "fancy": true,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c007",
+          "name": "Lightweight knit or cardigan",
+          "detail": "1. Doubles as a top and a layer. Very efficient packing.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c008",
+          "name": "Casual skirt",
+          "detail": "1. Day-to-night versatile.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c009",
+          "name": "Casual day dress",
+          "detail": "Great for warm Osaka days and exploring.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c010",
+          "name": "Slightly nicer dress",
+          "detail": "Evening dinners, distinct outfit feel.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c011",
+          "name": "Third dress (wildcard)",
+          "detail": "Can dress up or down depending on the day.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c012",
+          "name": "Lightweight down jacket or vest",
+          "detail": "Viv runs cold — more warmth per gram than fleece. Hakone mornings especially.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "c013",
+          "name": "Lightweight down or fleece",
+          "detail": "Hakone mornings, Kurama hike, evening layering.",
+          "tags": ["Alex"],
+          "per_person": false,
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "c014",
+          "name": "Packable rain jacket",
+          "detail": "1 each (already owned). Japan in April = occasional showers.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c015",
+          "name": "Underwear",
+          "detail": "8 pairs each.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "quantity": 8,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c016",
+          "name": "Socks",
+          "detail": "8 pairs each. Mix of ankle/no-show and regular.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "quantity": 8,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c017",
+          "name": "Running shorts + shirt",
+          "detail": "1 set each. Doubles as sleep / lounge wear.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c018",
+          "name": "Swimsuit",
+          "detail": "Yoshiike ryokan has onsen.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "c019",
+          "name": "Lightweight scarf",
+          "detail": "Warmth layering, temple coverage, airplane blanket substitute.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "checked": { "Viv": false }
+        }
+      ]
+    },
+    {
+      "id": "footwear",
+      "title": "Footwear",
+      "emoji": "👟",
+      "note": "You'll average 20,000+ steps/day. Temples require slip-on/off ease. Viv's ballerina flats double as dressy and comfortable.",
+      "items": [
+        {
+          "id": "f001",
+          "name": "Comfortable walking sneakers",
+          "detail": "Worn on the plane. Primary everyday shoe — every city, every temple.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "f002",
+          "name": "Running shoes",
+          "detail": "Also handles hikes (Kurama, Fushimi). Pack in bag.",
+          "tags": ["Alex"],
+          "per_person": false,
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "f003",
+          "name": "Ballerina flats",
+          "detail": "Yoshitake, Kobe beef, nicer dinners. Comfortable enough for general use. Slip-on/off easy for temples.",
+          "tags": ["Viv"],
+          "per_person": false,
+          "fancy": true,
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "f004",
+          "name": "Packable sandals / flip flops",
+          "detail": "Ryokan indoor use + warm Osaka days. Lightweight.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "title": "Camera gear",
+      "emoji": "📷",
+      "note": "Nikon Z5 + 24-120mm f/4 — stays in Alex's 26L day pack. Never check camera gear.",
+      "items": [
+        {
+          "id": "cam001",
+          "name": "Nikon Z5 body",
+          "detail": "Keep in carry-on always.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam002",
+          "name": "NIKKOR Z 24-120mm f/4 S",
+          "detail": "Your only lens — leave it mounted to save time.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam003",
+          "name": "EN-EL15c batteries × 2",
+          "detail": "20-day trip, heavy shooting days. Two minimum — three is smarter.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam004",
+          "name": "SD cards × 2 (64GB+)",
+          "detail": "Two cards, always. Keep the backup in a different bag.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam005",
+          "name": "USB-C / battery charger",
+          "detail": "MH-25a or dual-slot USB charger.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam006",
+          "name": "Lens cloth + UV filter",
+          "detail": "Protection filter stays on. Microfibre cloth for rain days.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam007",
+          "name": "Lightweight camera strap",
+          "detail": "Peak Design Leash or similar — easier than stock strap for all-day carry.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam008",
+          "name": "Tripod or GorillaPod",
+          "detail": "Optional — useful for dawn shots at Bamboo Grove without asking strangers.",
+          "tags": ["Alex"],
+          "optional": true,
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "cam009",
+          "name": "SD card reader",
+          "detail": "For backing up cards to laptop each evening. Small and critical.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        }
+      ]
+    },
+    {
+      "id": "toiletries",
+      "title": "Toiletries",
+      "emoji": "🪥",
+      "note": "Japanese convenience stores and drugstores stock most toiletries cheaply. Bring travel-size only; resupply in Japan. Deodorant is the exception — bring full sticks.",
+      "items": [
+        {
+          "id": "t001",
+          "name": "Toothbrush + toothpaste",
+          "detail": "Travel-size paste. Hotels often provide brushes but not always.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t002",
+          "name": "Shampoo + conditioner",
+          "detail": "Travel-size or solid bars. Ryokans usually provide; hotels vary.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t003",
+          "name": "Body wash / soap bar",
+          "detail": "Solid bar is TSA-free and lasts longer than liquid.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t004",
+          "name": "SPF 50 sunscreen",
+          "detail": "You'll be outside all day. Buy more in Japan — their sunscreens are excellent.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t005",
+          "name": "Deodorant (full stick)",
+          "detail": "Harder to find in Japan. Bring a full stick each — don't rely on finding it there.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t006",
+          "name": "Razor",
+          "detail": "Disposable or travel-size. Refills available at Japanese drugstores.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t007",
+          "name": "Lip balm (SPF)",
+          "detail": "Lots of outdoor walking and cool mountain days (Hakone, Kurama).",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t008",
+          "name": "Hand cream / moisturiser",
+          "detail": "April can be dry. Excellent options to buy in Japan.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t009",
+          "name": "Basic first-aid / meds",
+          "detail": "Ibuprofen, antihistamines, blister plasters, stomach meds, personal prescriptions.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "t010",
+          "name": "Skincare routine items",
+          "detail": "Decant into travel sizes. Japanese skincare is world-class if you want to supplement.",
+          "tags": ["Viv"],
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "t011",
+          "name": "Hair ties / clips",
+          "detail": "Especially for high-humidity days and hikes.",
+          "tags": ["Viv"],
+          "checked": { "Viv": false }
+        },
+        {
+          "id": "t012",
+          "name": "Makeup essentials (minimal)",
+          "detail": "Keep light. Tokyo has incredible makeup options to explore.",
+          "tags": ["Viv"],
+          "checked": { "Viv": false }
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "title": "Tech & electronics",
+      "emoji": "🔌",
+      "note": "Japan uses Type A plugs — no adapter needed from Canada. Voltage is 100V; most modern devices handle 100–240V automatically.",
+      "items": [
+        {
+          "id": "tech001",
+          "name": "Phone",
+          "detail": "Suica, maps, translation, everything lives here.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "tech002",
+          "name": "eSIM",
+          "detail": "IIJmio, Ubigi, or Airalo. Buy before departure.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "tech003",
+          "name": "Laptop or iPad",
+          "detail": "For photo backup, itinerary review. One between you is enough.",
+          "tags": ["Alex"],
+          "checked": { "Alex": false }
+        },
+        {
+          "id": "tech004",
+          "name": "USB-C GaN charger (65W+)",
+          "detail": "One multi-port GaN replaces 3 chargers. Charges laptop, phone, camera.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "tech005",
+          "name": "Power bank (10,000–20,000 mAh)",
+          "detail": "Big walking days drain phones fast. Check airline carry-on limits (≤100Wh).",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "tech006",
+          "name": "USB-C cable × 2",
+          "detail": "One short (for charger), one long (for bedside).",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "tech007",
+          "name": "Earbuds / headphones",
+          "detail": "Long flights, Shinkansen rides. ANC recommended for YYZ–NRT.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "tech008",
+          "name": "Luggage scale (small)",
+          "detail": "You're checking bags home from Tokyo — avoid surprises at HND.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Documents & money",
+      "emoji": "📄",
+      "note": "Japan is still heavily cash-based. Withdraw yen from 7-Eleven or Japan Post ATMs. Always have ¥5,000–10,000 on hand.",
+      "items": [
+        {
+          "id": "d001",
+          "name": "Passport",
+          "detail": "Valid 6+ months past Apr 30, 2026. Keep digital scans in cloud storage.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d002",
+          "name": "Travel insurance documents",
+          "detail": "Digital + one paper copy. Know the claims phone number.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d003",
+          "name": "Flight confirmations (offline screenshots)",
+          "detail": "AC009 (Apr 10), UA876 + AC740 (Apr 30).",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d004",
+          "name": "Shinkansen vouchers (Klook)",
+          "detail": "Kanazawa→Kyoto and Osaka→Hiroshima. Screenshot + Klook app ready to redeem at green machines.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d005",
+          "name": "Suica card (Apple/Google Wallet)",
+          "detail": "One each — cannot be shared. Load before Tokyo arrival.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d006",
+          "name": "Credit card (no FX fees)",
+          "detail": "Visa or Mastercard preferred. Amex has limited acceptance in Japan.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d007",
+          "name": "Cash (yen) — withdraw on arrival",
+          "detail": "Get ¥30,000–50,000 from 7-Eleven ATM at NRT. Avoid airport exchange rates.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d008",
+          "name": "Tea ceremony booking confirmation",
+          "detail": "Apr 17, 15:30 — Hanamikoji Street. Screenshot offline.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d009",
+          "name": "Sushi Yoshitake confirmation",
+          "detail": "Apr 27 — $1,156 paid. Screenshot. Arrive exactly on time.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "d010",
+          "name": "Kobe beef reservation (Apr 19)",
+          "detail": "Ishida Osaka — screenshot + note address.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        }
+      ]
+    },
+    {
+      "id": "daypack",
+      "title": "Daily carry",
+      "emoji": "🎒",
+      "note": "What lives in Alex's 26L and Viv's 30L weekender every day while sightseeing.",
+      "items": [
+        {
+          "id": "dp001",
+          "name": "Reusable water bottle",
+          "detail": "Tap water is safe everywhere in Japan.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "dp002",
+          "name": "Compact folding umbrella",
+          "detail": "For days when the packable jacket feels overkill.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "dp003",
+          "name": "Hand sanitiser + tissues",
+          "detail": "Many public restrooms have no paper towels or soap. Essential.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "dp004",
+          "name": "Blister plasters (a few in bag)",
+          "detail": "Even great shoes betray you on 25,000-step days. Compeed are worth it.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "dp005",
+          "name": "Snacks",
+          "detail": "Konbini tops you up daily, but a couple of energy bars for early morning hikes is smart.",
+          "tags": ["Shared"],
+          "checked": { "Alex": false, "Viv": false }
+        },
+        {
+          "id": "dp006",
+          "name": "Packable tote bag",
+          "detail": "Japan is a shopping gauntlet. Always have a bag for impulse buys.",
+          "tags": ["Alex", "Viv"],
+          "per_person": true,
+          "checked": { "Alex": false, "Viv": false }
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "icon": "🧺",
+      "title": "Laundry strategy",
+      "detail": "Coin laundries are everywhere. Wash+dry cycle costs ¥600–1,000, takes ~90 min. Target Osaka (4 nights) and Tokyo (4 nights) as your laundry days."
+    },
+    {
+      "icon": "🛍️",
+      "title": "Tokyo shopping buffer",
+      "detail": "Leave meaningful space in Viv's 40L roller — it becomes the checked bag home. Alex might want a packable duffel inside the 40L for overflow."
+    },
+    {
+      "icon": "⛩️",
+      "title": "Temple etiquette footwear",
+      "detail": "Many temples require removing shoes quickly. Slip-on shoes save time at Kiyomizudera, ryokans, and the tea ceremony."
+    },
+    {
+      "icon": "🧴",
+      "title": "Buy in Japan",
+      "detail": "Sunscreen, skincare, snacks, and convenience items are cheaper and often higher quality in Japan. A drugstore run on Day 1–2 can stock you up."
+    },
+    {
+      "icon": "🌡️",
+      "title": "Hakone will be cooler",
+      "detail": "Apr 24–26 in Hakone averages 8–15°C. Fleece/down and rain jacket earn their keep here. The ryokan provides yukatas and slippers for indoor use."
+    },
+    {
+      "icon": "🍣",
+      "title": "For Sushi Yoshitake (Apr 27)",
+      "detail": "Smart casual is fine for a 3-Michelin-star omakase. Nice jeans + button-up is perfect. Avoid strong perfume/cologne — it interferes with the food experience."
+    },
+    {
+      "icon": "📸",
+      "title": "Back up photos daily",
+      "detail": "Import cards to laptop each evening. 20 days on one SD card is a single point of failure. Cloud backup over hotel Wi-Fi if bandwidth allows."
+    },
+    {
+      "icon": "🎫",
+      "title": "Urgent: Hiroshima → Odawara",
+      "detail": "Shinkansen via SmartEx still flagged as unbooked. Golden Week proximity makes this time-sensitive — book as soon as possible."
+    }
+  ]
+}

@@ -1,13 +1,16 @@
 <%
+  var tagClasses = {
+    'Alex': 'tag-alex',
+    'Viv': 'tag-viv',
+    'Shared': 'tag-shared'
+  };
   var tagLabels = {
-    alex: 'Alex',
-    viv: 'Viv',
-    shared: 'Both',
-    photo: 'Photo',
-    fancy: 'Fancy'
+    'Alex': 'Alex',
+    'Viv': 'Viv',
+    'Shared': 'Both'
   };
 
-  var itemCounter = 0;
+  var meta = packingList.trip;
 %>
 
 <div class="header">
@@ -17,13 +20,13 @@
     <span class="meta-chip">📅 Apr 10 – 30</span>
     <span class="meta-chip">🎒 Alex: 40L + 26L</span>
     <span class="meta-chip">🧳 Viv: 40L roller + 30L weekender</span>
-    <span class="meta-chip">👕 Laundry ~weekly</span>
+    <span class="meta-chip">👕 <%= meta.laundry %></span>
   </div>
 </div>
 
 <div class="info-banner">
   <div class="info-strip">
-    <strong>Tokyo/Kyoto/Osaka in late April:</strong> Mild and pleasant — 14–22°C days, 8–13°C nights. Layers are key. Expect occasional rain. Hakone can be 5°C cooler. No heavy coats needed; a light down or fleece + rain shell handles everything.
+    <strong>Strategy:</strong> <%= meta.strategy %>
   </div>
 </div>
 
@@ -36,9 +39,10 @@
 <nav class="section-nav">
   <div class="section-nav-inner">
     <a href="#bags" class="active">Bag Plan</a>
-<% packing.categories.forEach(function(cat) { %>
-    <a href="#cat-<%= cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') %>"><%= cat.name %></a>
+<% packingList.sections.forEach(function(sec) { %>
+    <a href="#cat-<%= sec.id %>"><%= sec.title %></a>
 <% }); %>
+    <a href="#tips">Tips</a>
   </div>
 </nav>
 
@@ -46,49 +50,73 @@
 <div class="bag-map" id="bags">
   <div class="bag-map-title">How to load the bags</div>
   <div class="bag-grid">
-<% packing.bags.forEach(function(bag) { %>
+<% Object.keys(meta.luggage).forEach(function(person) { %>
+<%   meta.luggage[person].forEach(function(bag) { %>
     <div class="bag-card">
-      <div class="bag-owner"><%= bag.owner %></div>
-      <div class="bag-name"><%= bag.name %></div>
-      <div class="bag-size"><%= bag.size %></div>
-      <div class="bag-contents"><%= bag.contents %></div>
+      <div class="bag-owner"><%= person %></div>
+      <div class="bag-name"><%= bag.split(' (')[0] %></div>
+      <div class="bag-size"><%= bag.match(/\(([^)]+)\)/) ? bag.match(/\(([^)]+)\)/)[1] : '' %></div>
     </div>
+<%   }); %>
 <% }); %>
   </div>
 </div>
 
 <!-- Categories -->
-<% packing.categories.forEach(function(cat) { %>
-<%   var catId = 'cat-' + cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'); %>
-<section class="pack-section" id="<%= catId %>">
+<% packingList.sections.forEach(function(sec) { %>
+<section class="pack-section" id="cat-<%= sec.id %>">
   <div class="section-header">
-    <span class="section-emoji"><%= cat.emoji %></span>
-    <div class="section-title"><%= cat.name %></div>
+    <span class="section-emoji"><%= sec.emoji %></span>
+    <div class="section-title"><%= sec.title %></div>
     <div class="section-count"></div>
   </div>
-<% if (cat.note) { %>
-  <div class="section-note"><%= cat.note %></div>
+<% if (sec.note) { %>
+  <div class="section-note"><%= sec.note %></div>
 <% } %>
   <div class="item-grid">
-<% cat.items.forEach(function(item) { %>
-<%   itemCounter++; %>
-    <div class="pack-item" data-id="pack-<%= itemCounter %>">
+<% sec.items.forEach(function(item) { %>
+    <div class="pack-item<%= item.optional ? ' optional-item' : '' %>" data-id="<%= item.id %>">
       <div class="pack-checkbox"><span class="check-mark">✓</span></div>
       <div class="pack-text">
         <div class="pack-name"><%= item.name %></div>
 <% if (item.detail) { %>
         <div class="pack-detail"><%= item.detail %></div>
 <% } %>
-<% if (item.tags && item.tags.length) { %>
         <div class="pack-tags">
-<% item.tags.forEach(function(t) { %>
-          <span class="tag tag-<%= t %>"><%= tagLabels[t] || t %></span>
-<% }); %>
-        </div>
+<% if (item.tags && item.tags.length) { %>
+<%   item.tags.forEach(function(t) { %>
+          <span class="tag <%= tagClasses[t] || 'tag-shared' %>"><%= tagLabels[t] || t %></span>
+<%   }); %>
 <% } %>
+<% if (item.fancy) { %>
+          <span class="tag tag-fancy">Fancy</span>
+<% } %>
+<% if (item.optional) { %>
+          <span class="tag tag-optional">Optional</span>
+<% } %>
+        </div>
       </div>
     </div>
 <% }); %>
   </div>
 </section>
 <% }); %>
+
+<!-- Tips -->
+<section class="pack-section" id="tips">
+  <div class="section-header">
+    <span class="section-emoji">💡</span>
+    <div class="section-title">Tips</div>
+  </div>
+  <div class="tips-grid">
+<% packingList.tips.forEach(function(tip) { %>
+    <div class="tip-card">
+      <div class="tip-icon"><%= tip.icon %></div>
+      <div class="tip-body">
+        <div class="tip-title"><%= tip.title %></div>
+        <div class="tip-detail"><%= tip.detail %></div>
+      </div>
+    </div>
+<% }); %>
+  </div>
+</section>
