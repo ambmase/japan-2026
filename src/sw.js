@@ -1,4 +1,4 @@
-var CACHE_NAME = 'japan2026-v1';
+var CACHE_NAME = 'japan2026-v2';
 
 var STATIC_ASSETS = [
   'style.css',
