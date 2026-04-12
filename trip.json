@@ -74,8 +74,7 @@
           "note": "Train booked: 9:26 AM from Ueno Station. Hokuriku Shinkansen to Kanazawa. Arrive around 2pm — half-day to explore.",
           "accommodation": {
             "name": "Four Points Flex by Sheraton Kanazawa",
-            "notes": "$186 · Paid",
-            "booking_url": "https://www.expedia.ca/Kanazawa-Hotels-UNIZO-INN-Kanazawa-Hyakumangoku-Dori.h18375043.Hotel-Information"
+            "notes": "$186 · Paid"
           },
           "events": [
             {
@@ -89,43 +88,54 @@
             },
             {
               "type": "activity",
-              "time": "14:00",
-              "title": "Check in · Four Points Flex by Sheraton",
+              "time": "13:52",
+              "title": "Arrive Kanazawa · Check in · Four Points Flex",
               "tagline": "Drop bags, get oriented",
+              "notes": "Train arrives 11:52am. Drop bags at hotel — standard check-in is 3pm but bags can be left.",
               "pills": ["booked"]
             },
             {
-              "type": "activity",
-              "time": "15:00",
+              "type": "restaurant",
+              "time": "14:30",
               "duration": "90 min",
-              "title": "Kenrokuen Garden",
-              "tagline": "One of Japan's three great gardens",
-              "notes": "One of Japan's top three landscape gardens. Late-afternoon light is beautiful on the ponds and moss. Adjacent to Kanazawa Castle Park.",
+              "title": "Lunch · Ōmicho Market",
+              "tagline": "300-year-old covered market — kaisendon and market grazing",
+              "notes": "Kanazawa faces the Sea of Japan's richest fishing grounds. Get a kaisendon (seafood rice bowl) from one of the market stalls or upstairs restaurants. ¥1,500–2,500. Go before 2pm for best selection. Also try the gold-leaf soft cream.",
+              "pills": ["food"]
+            },
+            {
+              "type": "activity",
+              "time": "16:00",
+              "duration": "90 min",
+              "title": "Nagamachi Samurai District",
+              "tagline": "Japan's best-preserved samurai residential quarter",
+              "notes": "Wander the canal-side earthen wall lanes — the narrow stone path with water on one side is the defining photo of Kanazawa. Visit Nomura-ke residence (¥550) for tatami rooms, a small garden, and Edo-period artefacts. Best before crowds pick up — quiet on a Sunday afternoon.",
               "pills": ["cost", "photo"]
             },
             {
               "type": "activity",
-              "time": "17:00",
-              "duration": "60 min",
-              "title": "Kanazawa Castle Park",
-              "tagline": "Historic castle grounds, free to roam",
-              "notes": "Right next to Kenrokuen. The Ishikawa-mon gate and surrounding moat are stunning at dusk.",
+              "time": "17:45",
+              "duration": "45 min",
+              "title": "Higashi Chaya District at dusk",
+              "tagline": "Lanterns glow on wooden lattice teahouses",
+              "notes": "Walk the main street as lanterns come on — crowds thin after 5:30pm and the warm light on wooden facades is beautiful. Cross the Asanogawa River to Kazuemachi for 15 min: quieter lanes, stone steps, best river views of the district at dusk.",
               "pills": ["free", "photo"]
             },
             {
               "type": "restaurant",
               "time": "19:00",
-              "title": "Dinner · Omicho Market area",
-              "tagline": "Fresh seafood — Kanazawa's famous market",
-              "notes": "Omicho Market restaurants serve some of the freshest sushi and seafood bowls in Japan. Look for kaisen-don (seafood rice bowls). Market stalls close by 5pm but restaurants stay open.",
+              "title": "Dinner · Higashi Chaya / Kazuemachi area",
+              "tagline": "Evening meal after a light arrival day",
+              "notes": "Several izakayas and traditional restaurants in the Higashi Chaya area. Look for jibuni stew (Kanazawa's signature duck and fu stew in dashi) or Kanazawa oden for something local and warming.",
               "pills": ["food"]
             }
           ]
         },
         {
           "date": "2026-04-13",
-          "title": "Kanazawa full day",
-          "subtitle": "Monday Apr 13 · Full day · Samurai & geisha districts",
+          "title": "Gardens, museums & ninja temple",
+          "subtitle": "Monday Apr 13 · Full day · Out by 8am",
+          "note": "A full day anchored by Kenrokuen in the morning and Myoryuji Ninja Temple in the afternoon (reservation dependent). Museums fill the midday. Relaxed pace — take time in the garden.",
           "accommodation": {
             "name": "Four Points Flex by Sheraton Kanazawa",
             "notes": "$186 · Paid"
@@ -133,48 +143,85 @@
           "events": [
             {
               "type": "activity",
-              "time": "09:00",
-              "duration": "60 min",
-              "title": "Nagamachi Samurai District",
-              "tagline": "Preserved samurai residences and earthen walls",
-              "notes": "Wander the narrow lanes of the old samurai quarter. Visit Nomura-ke house (¥550) for a beautiful small garden and tatami rooms.",
+              "time": "08:00",
+              "duration": "90 min",
+              "title": "Kenrokuen Garden",
+              "tagline": "One of Japan's three great gardens — photography focus",
+              "notes": "¥320 entry (paid hours begin 7am). Priority shots: Kotoji Lantern reflected in Kasumigaike pond, the Yūgao-tei teahouse (1774), and the cherry trees along the northeast streams — should still be beautiful mid-April. Take your time. Weekday mornings are quiet.",
               "pills": ["cost", "photo"]
             },
             {
               "type": "activity",
-              "time": "10:30",
-              "duration": "60 min",
-              "title": "Higashi Chaya (Geisha District)",
-              "tagline": "Beautiful preserved tea house district",
-              "notes": "Kanazawa's most photogenic neighbourhood. Wooden lattice buildings line narrow streets. Visit Shima or Kaikaro tea house to see inside (¥500).",
+              "time": "09:30",
+              "duration": "30 min",
+              "title": "Kanazawa Castle Park",
+              "tagline": "Adjacent to Kenrokuen — outdoor grounds and moat",
+              "notes": "Walk straight in from Kenrokuen — they share a border. Keep it brief: focus on the outdoor grounds, the white castle walls, and moat-side photo angles. Skip the interior buildings (reconstructed). Free to walk.",
               "pills": ["free", "photo"]
             },
             {
               "type": "activity",
-              "time": "12:00",
-              "title": "Lunch · Omicho Market",
-              "tagline": "Seafood bowls and market grazing",
+              "time": "10:00",
+              "duration": "40 min",
+              "title": "Seisonkaku Villa",
+              "tagline": "The Maeda lord's private palace — lacquerware, Dutch glass, tatami",
+              "notes": "Right at the Kenrokuen gate, zero travel time. Built 1863 as a retirement villa for the lord's mother — Dutch stained-glass windows, lacquerware sliding screens, and painted ceilings. A fusion of Japanese and Western aesthetics almost no tourists go inside to see. ¥700.",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "time": "11:00",
+              "duration": "30 min",
+              "title": "Coffee · Kanazawaya",
+              "tagline": "Coffee break before museums",
+              "notes": "Confirm location and route to D.T. Suzuki Museum from here.",
               "pills": ["food"]
             },
             {
               "type": "activity",
-              "time": "14:00",
-              "duration": "90 min",
-              "title": "21st Century Museum of Contemporary Art",
-              "tagline": "Free-form modern art in a circular glass building",
-              "notes": "Leandro Erlich's 'Swimming Pool' is the highlight — an optical illusion pool you can walk under. Some zones are free, special exhibitions cost ¥1,200.",
-              "pills": ["cost"],
+              "time": "11:30",
+              "duration": "60 min",
+              "title": "D.T. Suzuki Museum",
+              "tagline": "Zen philosopher's contemplative museum — Water Mirror Garden",
+              "notes": "¥310. Designed by Yoshio Taniguchi (who also redesigned MoMA). The centrepiece Water Mirror Garden is a perfectly still reflecting pool — one of the most photogenic spaces in Kanazawa and almost always quiet. Visit on a clear morning for mirror-like reflections.",
+              "pills": ["cost", "photo"]
+            },
+            {
+              "type": "restaurant",
+              "time": "13:00",
+              "duration": "60 min",
+              "title": "Sit-down lunch",
+              "tagline": "Proper midday meal — location flexible",
+              "notes": "Route lunch toward Teramachi/south if Ninja Temple is booked for the afternoon. Options: jibuni stew at a traditional restaurant, Kanazawa curry (local institution, ¥800–1,000), or a kaiseki-lite set lunch. Avoid another seafood bowl if you had kaisendon yesterday.",
+              "pills": ["food"]
+            },
+            {
+              "type": "activity",
+              "time": "14:30",
+              "duration": "60 min",
+              "title": "Myoryuji — Ninja Temple",
+              "tagline": "7 floors, 29 hidden mechanisms — reservation required",
+              "notes": "Reservation dependent — call today to book an afternoon slot. ¥1,200 adults, cash only. 40-min guided tour in Japanese with English booklet. No photography inside. Located in Teramachi district, south of the city — take the Loop Bus (Left Loop, Hirokoji stop, ~14 min from Station). Nishi Chaya district is a 3-min walk away — combine the two.",
+              "pills": ["cost", "book"],
               "optional": true
             },
             {
               "type": "activity",
-              "time": "16:00",
-              "duration": "60 min",
-              "title": "D.T. Suzuki Museum",
-              "tagline": "Zen philosopher's contemplative museum",
-              "notes": "A beautifully minimalist museum dedicated to the Zen Buddhist philosopher. The Water Mirror Garden is profoundly peaceful. ¥310.",
-              "pills": ["cost"],
+              "time": "15:45",
+              "duration": "20 min",
+              "title": "Nishi Chaya District",
+              "tagline": "Smallest, quietest geisha district — almost no tourists",
+              "notes": "3-minute walk from Myoryuji. Wooden lattice teahouses from 200 years ago, stone-paved street. On quiet afternoons you can sometimes hear shamisen from upper floors. Free to walk.",
+              "pills": ["free", "photo"],
               "optional": true
+            },
+            {
+              "type": "restaurant",
+              "time": "18:30",
+              "title": "Dinner · Evening",
+              "tagline": "Last full evening in Kanazawa",
+              "notes": "Consider Kanazawa oden (delicate kombu broth, premium local ingredients — a classic Kanazawa evening dish) or a nodoguro (blackthroat seaperch) focused restaurant. Much cheaper here than in Tokyo or Osaka for the same fish.",
+              "pills": ["food"]
             }
           ]
         },
@@ -182,7 +229,7 @@
           "date": "2026-04-14",
           "title": "Shirakawa-go day trip",
           "subtitle": "Tuesday Apr 14 · Day trip · UNESCO thatched village",
-          "note": "Shirakawa-go is a UNESCO World Heritage village of steep thatched-roof farmhouses (gassho-zukuri). Bus from Kanazawa takes ~75 min each way.",
+          "note": "Shirakawa-go is a UNESCO World Heritage village of steep thatched-roof farmhouses (gassho-zukuri). Bus from Kanazawa takes ~75 min each way. Book bus tickets in advance — Nohi Bus or Hokutetsu. Recommended to book online before the trip.",
           "accommodation": {
             "name": "Four Points Flex by Sheraton Kanazawa",
             "notes": "$186 · Paid"
@@ -193,48 +240,50 @@
               "time": "08:00",
               "duration": "75 min",
               "title": "Bus · Kanazawa → Shirakawa-go",
-              "tagline": "Nohi Bus from Kanazawa Station",
-              "notes": "Book bus tickets in advance (Nohi Bus or Hokuriku Railroad). Runs several times daily. Reserved seating recommended.",
-              "pills": ["cost"]
+              "tagline": "Nohi Bus from Kanazawa Station East Exit",
+              "notes": "Book in advance online. ~¥2,600 each way (~$25 CAD). Reserved seating. Several departures daily — 8am gets you there before tour buses arrive.",
+              "pills": ["cost", "booked"]
             },
             {
               "type": "activity",
               "time": "09:30",
               "duration": "120 min",
               "title": "Shirakawa-go village walk",
-              "tagline": "Thatched-roof farmhouses and rice paddies",
-              "notes": "Explore the main village on foot. Visit Wada House or Kanda House (open farmhouse museums). Walk up to Shiroyama Viewpoint for the classic panorama.",
-              "pills": ["photo", "free"]
+              "tagline": "Thatched gassho-zukuri farmhouses and rice paddies",
+              "notes": "Explore the main Ogimachi village on foot. Visit Wada House or Kanda House — open farmhouse museums showing life inside the massive thatched structures. The village is compact and walkable in 2 hours at a relaxed pace.",
+              "pills": ["photo", "cost"]
             },
             {
               "type": "activity",
-              "time": "11:30",
+              "time": "10:30",
               "title": "Shiroyama Viewpoint",
-              "tagline": "Classic panoramic view of the village",
-              "notes": "15-min uphill walk from the village center. The postcard view of the entire village with mountains behind. Essential stop.",
+              "tagline": "The classic panoramic view — essential",
+              "notes": "15-min uphill walk from the village centre (or short shuttle bus). The postcard shot of the entire village with mountains behind. Best light is morning — you'll be hitting it at the right time. Go before the tour buses arrive in force around 11am.",
               "pills": ["free", "photo"]
             },
             {
               "type": "restaurant",
-              "time": "12:30",
+              "time": "12:00",
               "title": "Lunch in Shirakawa-go",
-              "tagline": "Local soba or hida beef",
-              "notes": "Several small restaurants serve local specialties — try hida beef croquettes or handmade soba. Eat before 1pm to avoid tour-bus lunch rush.",
+              "tagline": "Eat before the tour-bus lunch rush",
+              "notes": "Several small restaurants serve local specialties. Try hida beef croquettes, handmade soba, or mitarashi dango. Eat by noon — tour groups flood restaurants from 12:30 onwards.",
               "pills": ["food"]
             },
             {
               "type": "train",
-              "time": "14:30",
+              "time": "14:00",
               "duration": "75 min",
               "title": "Bus · Shirakawa-go → Kanazawa",
-              "tagline": "Return bus to Kanazawa Station",
+              "tagline": "Return to Kanazawa Station",
+              "notes": "Check return bus times when booking — aim for a 2–3pm departure to give yourselves a relaxed evening back in Kanazawa.",
               "pills": ["cost"]
             },
             {
               "type": "activity",
               "time": "17:00",
-              "title": "Free evening in Kanazawa",
-              "tagline": "Last night — revisit favourites or explore new spots",
+              "title": "Free evening · Last night in Kanazawa",
+              "tagline": "Revisit favourites or explore Katamachi",
+              "notes": "Katamachi is Kanazawa's main entertainment and bar district near the Sai River — good for a final evening drink. Or revisit Higashi Chaya if you want more time there.",
               "pills": ["free"],
               "optional": true
             }
