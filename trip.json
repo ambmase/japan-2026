@@ -458,52 +458,59 @@
         {
           "date": "2026-04-17",
           "title": "Fushimi Inari & tea ceremony",
-          "subtitle": "Friday Apr 17 · Full day · Tea ceremony 15:30 booked ✓",
-          "note": "Sanjusangendo first thing as it opens at 8am and is close to the hotel. Then south to Fushimi Inari for the full hike. Hard anchor at 15:30 for the tea ceremony — leave Fushimi by 13:00 at the latest to freshen up.",
+          "subtitle": "Saturday Apr 17 · Full day · Tea ceremony 15:30 booked ✓",
+          "note": "Early start to Fushimi Inari to beat the crowds — the mountain is a completely different experience before 9am. Full hike up and down, then relaxed morning back in central Kyoto before the tea ceremony anchor at 15:30.",
           "accommodation": {
             "name": "Hotel Grand Bach Kyoto Select",
             "notes": "Refund before Apr 13 · $750"
           },
           "events": [
             {
+              "type": "transit",
+              "block": "early morning",
+              "title": "Taxi to Fushimi Inari",
+              "tagline": "Leave hotel ~6:15am — ~25 min, ~¥2,000–2,500",
+              "notes": "Taxi is easiest at this hour. Drops you directly at the shrine entrance. Aim to be at the torii gates by 7am."
+            },
+            {
               "type": "activity",
               "block": "early morning",
-              "title": "Sanjusangendo",
-              "tagline": "1,001 golden Kannon statues — opens 8am",
-              "notes": "One of the most remarkable rooms in Japan — a 120m hall filled with 1,001 life-size golden Kannon statues, each subtly different, flanked by 28 guardian deities. No photography inside but genuinely jaw-dropping. ¥600. About 40 min inside.",
-              "maps_url": "https://maps.app.goo.gl/Sanjusangendo",
-              "pills": ["cost"]
-            },
-            {
-              "type": "transit",
-              "block": "morning",
-              "title": "Bus or JR to Fushimi Inari",
-              "tagline": "JR Nara Line from Kyoto Station to Inari Station (~5 min)",
-              "notes": "Inari Station exit opens directly onto the shrine approach. Tap IC card — no reservation needed."
-            },
-            {
-              "type": "activity",
-              "block": "morning",
               "title": "Fushimi Inari Taisha · full hike",
-              "tagline": "Full summit hike — crowds thin above Yotsutsuji",
-              "notes": "Full round-trip hike to the summit is ~2.5–3 hours. Lower gates are busy — push through and keep climbing. Crowds thin dramatically past Yotsutsuji (~45 min up). Photo tip: shoot back down the tunnel of gates from above for the receding perspective with fewer people in frame. Free entry.",
+              "tagline": "Full summit hike — near-empty before 9am",
+              "notes": "Full round-trip hike to the summit is ~2.5–3 hours. Lower gates are stunning in early morning light. Crowds thin dramatically past Yotsutsuji (~45 min up) — keep going for the quiet shrine clearings and stone fox statues most tourists never see. Photo tip: shoot back down the tunnel of gates from above for the receding perspective with fewer people in frame. Free entry.",
               "maps_url": "https://maps.app.goo.gl/FushimiInari",
               "pills": ["free", "photo"]
             },
             {
               "type": "restaurant",
-              "block": "midday",
-              "title": "Lunch near Fushimi Inari",
-              "tagline": "Inari sushi — the traditional local food",
-              "notes": "Inari sushi (fried tofu pouches stuffed with seasoned rice) originated here. Shogetsu-do on the shrine approach is well-regarded and budget-friendly. Leave Fushimi by 13:00 to allow time to freshen up before the tea ceremony.",
+              "block": "morning",
+              "title": "Breakfast or coffee near Fushimi",
+              "tagline": "Refuel after the hike before heading back",
+              "notes": "Several small spots near the shrine entrance open by 9–10am. Inari sushi (fried tofu pouches stuffed with seasoned rice) originated here — worth trying fresh from a stall near the approach.",
               "pills": ["food"]
             },
             {
               "type": "transit",
+              "block": "late morning",
+              "title": "JR Nara Line · Inari → Kyoto Station",
+              "tagline": "~5 min · tap IC card",
+              "notes": "Then bus or taxi from Kyoto Station to the Nishiki / hotel area. Total ~30–40 min."
+            },
+            {
+              "type": "activity",
+              "block": "late morning",
+              "title": "Nishiki Market",
+              "tagline": "Kyoto's kitchen — graze and explore",
+              "notes": "5-block covered arcade packed with pickles, fresh tofu, tamagoyaki, yakitori, and sweets. Stalls open from around 10am. Don't miss Aritsugu (200-year-old knife shop) even just to look.",
+              "maps_url": "https://maps.app.goo.gl/UyE5vGAPJVE19ZMGA",
+              "pills": ["food", "free"]
+            },
+            {
+              "type": "activity",
               "block": "early afternoon",
-              "title": "Return to hotel · freshen up",
-              "tagline": "JR Nara Line back to Kyoto Station, then to hotel",
-              "notes": "Allow 30–40 min to get back and change before walking to Hanamikoji for the tea ceremony."
+              "title": "Freshen up at hotel",
+              "tagline": "Change before the tea ceremony",
+              "notes": "Hotel is a short walk from Nishiki and from Hanamikoji. Leave enough buffer to walk to the ceremony comfortably."
             },
             {
               "type": "activity",
@@ -536,8 +543,8 @@
         {
           "date": "2026-04-18",
           "title": "Higashiyama corridor & departure",
-          "subtitle": "Saturday Apr 18 · Morning / afternoon in Kyoto · Late train to Osaka",
-          "note": "Full Higashiyama walking corridor — one of the best walks in Kyoto and it ends close to the hotel for easy luggage pickup. Targeting ~18:00 train to Osaka. Hotel Grand Bach is a 10-min walk from Kiyomizudera.",
+          "subtitle": "Sunday Apr 18 · Morning / afternoon in Kyoto · Late train to Osaka",
+          "note": "Kiyomizudera is a 10-min walk from the hotel — perfect last morning. Full Higashiyama walking corridor heading north, ending near Ginkaku-ji before looping back for luggage. Targeting ~18:00 train to Osaka.",
           "accommodation": {
             "name": "Hotel Monterey Grasmere Osaka",
             "notes": "$738.71 · Namba area — checking in tonight",
@@ -555,7 +562,7 @@
             },
             {
               "type": "activity",
-              "block": "morning",
+              "block": "early morning",
               "title": "Ninen-zaka & Sannen-zaka lanes",
               "tagline": "Stone-paved lanes — empty before 9am",
               "notes": "Walk down from Kiyomizudera through these beautifully preserved machiya lanes. Before 9am virtually empty — perfect for unobstructed photos of the stone steps and moss-covered walls. Continue north naturally toward Maruyama Park.",
@@ -565,9 +572,18 @@
             {
               "type": "activity",
               "block": "morning",
+              "title": "Sanjusangendo",
+              "tagline": "1,001 golden Kannon statues — opens 8am",
+              "notes": "One of the most remarkable rooms in Japan — a 120m hall filled with 1,001 life-size golden Kannon statues, each subtly different, flanked by 28 guardian deities. No photography inside but genuinely jaw-dropping. A short bus or taxi ride south from the Ninen-zaka area. ¥600. Budget ~40 min inside.",
+              "maps_url": "https://maps.app.goo.gl/Sanjusangendo",
+              "pills": ["cost"]
+            },
+            {
+              "type": "activity",
+              "block": "morning",
               "title": "Maruyama Park & Yasaka Shrine",
               "tagline": "Natural midpoint on the Higashiyama corridor",
-              "notes": "Maruyama Park is Kyoto's most famous cherry blossom spot — likely past peak by Apr 18 but still scenic. Yasaka Shrine at the west end of the park is grand and free. Natural waypoint heading north.",
+              "notes": "Maruyama Park is Kyoto's most famous cherry blossom spot — may still have late blooms in mid-April. Yasaka Shrine at the west end of the park is grand and free. Natural waypoint heading north.",
               "maps_url": "https://maps.app.goo.gl/YasakaShrine",
               "pills": ["free", "photo"]
             },
@@ -576,7 +592,7 @@
               "block": "morning",
               "title": "Chion-in Temple",
               "tagline": "Japan's largest temple gate — tourists walk straight past it",
-              "notes": "The sanmon gate is brutally imposing — one of Japan's largest wooden structures. Most tourists walk past it on the way to Kiyomizudera. Peaceful gardens inside. ¥500.",
+              "notes": "The sanmon gate is brutally imposing — one of Japan's largest wooden structures. Peaceful gardens inside. ¥500.",
               "maps_url": "https://maps.app.goo.gl/Chionin",
               "pills": ["cost"],
               "optional": true
@@ -595,7 +611,7 @@
               "block": "late morning",
               "title": "Philosopher's Path",
               "tagline": "2km canal walk lined with cherry trees and cafés",
-              "notes": "Stone path running along a canal between Nanzen-ji and Ginkaku-ji. Named after philosopher Nishida Kitaro who walked it daily. Cherry blossoms may still be lingering in mid-April. Small independent cafés and galleries along the way — good spot for a coffee break.",
+              "notes": "Stone path running along a canal between Nanzen-ji and Ginkaku-ji. Small independent cafés and galleries along the way — good spot for a coffee break. Cherry blossoms may still be lingering in mid-April.",
               "maps_url": "https://maps.app.goo.gl/PhilosophersPath",
               "pills": ["free", "photo"]
             },
@@ -603,8 +619,8 @@
               "type": "activity",
               "block": "midday",
               "title": "Ginkaku-ji · Silver Pavilion",
-              "tagline": "Zen villa with famous sand garden — game time call vs Nanzen-ji",
-              "notes": "The Silver Pavilion and its extraordinary karesansui (dry sand garden) shaped into ocean waves and Mt Fuji. Less flashy than Kinkaku-ji but more refined. ¥500. Can skip if you spent longer at Nanzen-ji — decide on the day.",
+              "tagline": "Refined Zen villa with famous sand garden — game time call",
+              "notes": "The Silver Pavilion and its extraordinary karesansui sand garden shaped into ocean waves and Mt Fuji. Less flashy than Kinkaku-ji but more refined. ¥500. Skip if you spent longer at Nanzen-ji — decide on the day.",
               "maps_url": "https://maps.app.goo.gl/Ginkakuji",
               "pills": ["cost", "photo"],
               "optional": true
@@ -621,8 +637,8 @@
               "type": "activity",
               "block": "afternoon",
               "title": "Return to hotel · collect luggage",
-              "tagline": "Hotel Grand Bach is ~20 min by taxi or bus from Ginkaku-ji",
-              "notes": "Taxi is easiest with luggage. Hotel is on the way toward Kyoto Station.",
+              "tagline": "~20 min by taxi from Ginkaku-ji area",
+              "notes": "Taxi is easiest with luggage. Hotel is roughly on the way toward Kyoto Station.",
               "maps_url": "https://maps.app.goo.gl/rWP7uXQLExNv3CPWA"
             },
             {
